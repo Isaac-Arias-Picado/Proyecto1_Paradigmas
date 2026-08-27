@@ -1,0 +1,60 @@
+# Archivos compilados
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Ejecutables (nombres comunes en proyectos en C)
+a.out
+a.exe
+main
+main.exe
+proyecto
+proyecto.exe
+
+# Archivos de depuración
+*.dSYM/
+*.pdb
+*.ilk
+*.idb
+
+# Archivos de proyecto de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# Archivos de build
+build/
+bin/
+obj/
+Debug/
+Release/
+*.suo
+*.user
+
+# Archivos de datos de entrada/salida (si no quieres subir datos reales)
+*.csv
+*.json
+*.txt
+!README.md
+!*.h
+!*.c
+
+# Archivos de configuración local
+*.env
+config.local.h
+
+# Archivos de backup
+*.bak
+*.backup
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
