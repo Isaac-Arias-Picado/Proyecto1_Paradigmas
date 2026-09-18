@@ -10,8 +10,10 @@
 #define MAX_CURSOS 100
 #define MAX_LINEA 500
 
-#define RUTA_PLAN "data/entrada/plan_materiales.txt"
-#define RUTA_HISTORIAL "data/entrada/historial.txt"
+#define RUTA_PLANM "data/entrada/plan_materiales.txt"
+#define RUTA_PLANC "data/entrada/plan_computadores.txt"
+#define RUTA_HISTORIALM "data/entrada/historialM.txt"
+#define RUTA_HISTORIALC "data/entrada/historialC.txt"
 #define RUTA_SALIDA "data/salida/catalogo.json"
 
 #endif

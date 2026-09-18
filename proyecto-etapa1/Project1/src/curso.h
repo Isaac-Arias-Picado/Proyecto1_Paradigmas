@@ -9,11 +9,11 @@ typedef struct {
     char nombre[MAX_NOMBRE];
     int creditos;
     int horas;
-    char requisitos[MAX_REQUISITOS][MAX_CODIGO];
+    char requisitos[MAX_REQUISITOS][MAX_NOMBRE];
     int num_requisitos;
-    char correquisitos[MAX_CORREQUISITOS][MAX_CODIGO];
+    char correquisitos[MAX_CORREQUISITOS][MAX_NOMBRE];
     int num_correquisitos;
-    int semestre;  // 0, 1, 2, 3, 4
+    int semestre;
     int tiene_choque;
     int elegible;
 } Curso;
