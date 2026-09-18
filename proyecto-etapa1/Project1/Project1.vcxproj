@@ -20,12 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\curso.c" />
+    <ClCompile Include="src\horario.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\parser.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\constantes.h" />
     <ClInclude Include="src\curso.h" />
+    <ClInclude Include="src\horario.h" />
     <ClInclude Include="src\parser.h" />
   </ItemGroup>
   <ItemGroup>

@@ -27,6 +27,9 @@
     <ClCompile Include="src\parser.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\horario.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\curso.h">
@@ -37,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="include\constantes.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\horario.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
