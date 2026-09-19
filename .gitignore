@@ -36,14 +36,6 @@ Release/
 *.suo
 *.user
 
-# Archivos de datos de entrada/salida (si no quieres subir datos reales)
-*.csv
-*.json
-*.txt
-!README.md
-!*.h
-!*.c
-
 # Archivos de configuración local
 *.env
 config.local.h

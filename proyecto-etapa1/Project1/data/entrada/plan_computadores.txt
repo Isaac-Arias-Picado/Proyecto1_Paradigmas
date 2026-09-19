@@ -1,0 +1,350 @@
+Semestre0:
+
+Prueba avanzada inglés
+0 Créditos / 0 Horas
+Código de curso : CI0205
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Matemática general
+2 Créditos / 5 Horas
+Código de curso : MA0101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. - 	
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre1:
+
+Introducción a la programación
+3 Créditos / 9 Horas
+Código de curso : CE1101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Fundamentos de sistemas computacionales
+3 Créditos / 9 Horas
+Código de curso : CE1104
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: introducción a la programación
+Requisitos: No posee requisitos
+
+Cálculo diferencial e integral
+4 Créditos / 5 Horas
+Código de curso : MA1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: matemática general
+
+Matemática discreta
+4 Créditos / 4 Horas
+Código de curso : MA1403
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Laboratorio de química básica i
+1 Créditos / 2 Horas
+Código de curso : QU1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: química básica i
+Requisitos: No posee requisitos	
+
+Química básica i
+3 Créditos / 4 Horas
+Código de curso : QU1106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: laboratorio de química básica i
+Requisitos: No posee requisitos
+
+Actividad cultural i
+0 Créditos / 2 Horas
+Código de curso : SE1100
+Nombres Equivalentes :
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Actividad deportiva i
+0 Créditos / 2 Horas
+Código de curso : SE1200
+Nombres Equivalentes :
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos	
+
+
+Semestre2:
+
+Algoritmos y estructuras de datos i
+4 Créditos / 12 Horas
+Código de curso : CE1103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: introducción a la programación,fundamentos de sistemas computacionales,matemática discreta
+
+Principios de modelado en ingeniería
+3 Créditos / 9 Horas
+Código de curso : CE1105
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: fundamentos de sistemas computacionales
+
+Habilidades de comunicación en ingeniería
+2 Créditos / 6 Horas
+Código de curso : CI1407
+Nombres Equivalentes :
+1. Comunicación técnica (CI1403)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Introducción a la técnica ciencia y tecnología
+1 Créditos / 2 Horas
+Código de curso : CS1502
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Física general i
+3 Créditos / 4 Horas
+Código de curso : FI1101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo diferencial e integral
+
+Laboratorio física general i
+1 Créditos / 2 Horas
+Código de curso : FI1201
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: física general i
+Requisitos: No posee requisitos
+
+Cálculo y álgebra lineal
+4 Créditos / 4 Horas
+Código de curso : MA1103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo diferencial e integral
+
+Actividad cultural-deportiva
+0 Créditos / 2 Horas
+Código de curso : SE1400
+Nombres Equivalentes :
+
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+
+Semestre3:
+
+Algoritmos y estructuras de datos ii
+4 Créditos / 12 Horas
+Código de curso : CE2103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: algoritmos y estructuras de datos i,principios de modelado en ingeniería
+
+Ambiente humano
+2 Créditos / 6 Horas
+Código de curso : CS2101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: habilidades de comunicación en ingeniería
+
+Circuitos eléctricos en corriente continua
+4 Créditos / 4 Horas
+Código de curso : EL2113
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: física general i,cálculo diferencial e integral
+
+Centros de formación humanística
+0 Créditos / 2 Horas
+Código de curso : FH1000
+Nombres Equivalentes :
+
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Física general ii
+3 Créditos / 4 Horas
+Código de curso : FI1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: cálculo diferencial e integral
+Requisitos: física general i
+
+Laboratorio física general ii
+1 Créditos / 2 Horas
+Código de curso : FI1202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: física general ii
+Requisitos: laboratorio física general i
+
+Cálculo superior
+4 Créditos / 4 Horas
+Código de curso : MA2104
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo y álgebra lineal
+
+Semestre4:
+
+Paradigmas de programación
+3 Créditos / 9 Horas
+Código de curso : CE1106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: algoritmos y estructuras de datos ii
+
+Laboratorio de circuitos eléctricos
+1 Créditos / 3 Horas
+Código de curso : CE2201
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: laboratorio física general ii
+
+Circuitos eléctricos en corriente alterna
+4 Créditos / 4 Horas
+Código de curso : EL2114
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: elementos activos
+Requisitos: circuitos eléctricos en corriente continua
+
+Elementos activos
+4 Créditos / 4 Horas
+Código de curso : EL2207
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: circuitos eléctricos en corriente continua
+
+Probabilidad y estadística
+2 Créditos / 3 Horas
+Código de curso : PI2609
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo superior
+
+Seguridad y salud ocupacional
+3 Créditos / 3 Horas
+Código de curso : SO4604
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: física general ii
