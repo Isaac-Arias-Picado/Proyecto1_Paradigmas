@@ -1,0 +1,633 @@
+Semestre0:
+
+Examen diagnóstico
+0 Créditos / 0 Horas
+Código de curso : CI0200
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Inglés básico
+2 Créditos / 3 Horas
+Código de curso : CI0202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre1:
+
+Comunicación escrita
+2 Créditos / 6 Horas
+Código de curso : CI1106
+Nombres Equivalentes :
+1. Comunicación técnica (CI1403)
+Nota :
+Periodo	Año	Nota
+-
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Introducción a la ciencia e ingeniería de los materiales
+3 Créditos / 8 Horas
+Código de curso : CM1103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Introducción a la técnica ciencia y tecnología
+1 Créditos / 2 Horas
+Código de curso : CS1502
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Matemática general
+2 Créditos / 5 Horas
+Código de curso : MA0101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Dibujo técnico
+3 Créditos / 9 Horas
+Código de curso : MI2101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Laboratorio de química básica i
+1 Créditos / 2 Horas
+Código de curso : QU1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: química básica i
+Requisitos: No posee requisitos
+
+Química básica i
+3 Créditos / 4 Horas
+Código de curso : QU1106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: laboratorio de química básica i
+Requisitos: No posee requisitos
+
+Actividad cultural i
+0 Créditos / 2 Horas
+Código de curso : SE1100
+Nombres Equivalentes :
+1. Acción social (SE1102)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre2:
+
+Elementos de computación
+3 Créditos / 4 Horas
+Código de curso : CA2125
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: matemática general
+
+Comunicación oral
+1 Créditos / 3 Horas
+Código de curso : CI1107
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: comunicación escrita
+
+Inglés i
+2 Créditos / 6 Horas
+Código de curso : CI1230
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: examen diagnóstico,inglés básico
+
+Física general i
+3 Créditos / 4 Horas
+Código de curso : FI1101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: cálculo diferencial e integral
+Requisitos: No posee requisitos
+
+Laboratorio física general i
+1 Créditos / 2 Horas
+Código de curso : FI1201
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: física general i
+Requisitos: No posee requisitos
+
+Cálculo diferencial e integral
+4 Créditos / 5 Horas
+Código de curso : MA1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: matemática general
+
+Laboratorio de química básica ii
+1 Créditos / 2 Horas
+Código de curso : QU1104
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: química básica ii
+Requisitos: laboratorio de química básica i,química básica i
+
+Química básica ii
+3 Créditos / 4 Horas
+Código de curso : QU1107
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: laboratorio de química básica ii
+Requisitos: laboratorio de química básica i,química básica i
+
+Semestre3:
+
+Inglés ii
+2 Créditos / 3 Horas
+Código de curso : CI1231
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: inglés i
+
+Termodinámica
+3 Créditos / 4 Horas
+Código de curso : CM2103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: cálculo diferencial e integral,química básica ii
+
+Física general ii
+3 Créditos / 4 Horas
+Código de curso : FI1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: física general i,laboratorio física general i
+
+Laboratorio física general ii
+1 Créditos / 2 Horas
+Código de curso : FI1202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: física general ii
+Requisitos: física general i,laboratorio física general i
+
+Química orgánica
+3 Créditos / 4 Horas
+Código de curso : QU2403
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: laboratorio de química orgánica
+Requisitos: laboratorio de química básica ii,química básica ii
+
+Laboratorio de química orgánica
+2 Créditos / 4 Horas
+Código de curso : QU2404
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: química orgánica
+Requisitos: laboratorio de química básica ii,química básica ii
+
+Actividad deportiva i
+0 Créditos / 2 Horas
+Código de curso : SE1200
+Nombres Equivalentes :
+1. Acondicionamiento físico (SE1206)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre4:
+
+Metalurgia física
+3 Créditos / 9 Horas
+Código de curso : CM2401
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: termodinámica de materiales
+Requisitos: termodinámica
+
+Laboratorio de metalurgia física
+1 Créditos / 3 Horas
+Código de curso : CM2402
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: metalurgia física
+Requisitos: introducción a la ciencia e ingeniería de los materiales
+
+Termodinámica de materiales
+3 Créditos / 4 Horas
+Código de curso : CM3103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: termodinámica
+
+Ecuaciones diferenciales
+4 Créditos / 4 Horas
+Código de curso : MA2105
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo y álgebra lineal
+
+Estática
+3 Créditos / 4 Horas
+Código de curso : MI2106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: física general i,laboratorio física general i
+
+Dibujo industrial
+4 Créditos / 4 Horas
+Código de curso : MI3124
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: dibujo técnico
+
+Actividad cultural-deportiva
+0 Créditos / 2 Horas
+Código de curso : SE1400
+Nombres Equivalentes :
+1. Dinámica de la cultura (SE1109)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre5:
+
+Métodos numéricos para ingeniería
+3 Créditos / 4 Horas
+Código de curso : CM3207
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: elementos de computación,ecuaciones diferenciales
+
+Materiales poliméricos
+3 Créditos / 9 Horas
+Código de curso : CM3501
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: química orgánica,laboratorio de química orgánica
+
+Relaciones laborales
+2 Créditos / 6 Horas
+Código de curso : CS2303
+Nombres Equivalentes :
+1. Ambiente humano (CS2101)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: introducción a la técnica ciencia y tecnología
+
+Resistencia de materiales
+3 Créditos / 4 Horas
+Código de curso : MI3115
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: estática
+
+Electrotecnia
+3 Créditos / 4 Horas
+Código de curso : MI4510
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: física general ii,laboratorio física general ii
+
+Probabilidad y estadística
+2 Créditos / 3 Horas
+Código de curso : PI2609
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: cálculo y álgebra lineal
+
+Fundamentos de seguridad e higiene ocupacional
+1 Créditos / 2 Horas
+Código de curso : SO2601
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: relaciones laborales
+Requisitos: No posee requisitos
+
+Semestre6:
+
+Metrología para ingeniería
+3 Créditos / 4 Horas
+Código de curso : CM3208
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: probabilidad y estadística
+
+Mecánica de fluidos
+3 Créditos / 9 Horas
+Código de curso : CM3601
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: termodinámica de materiales,ecuaciones diferenciales
+
+Tecnología de aleaciones metálicas
+3 Créditos / 9 Horas
+Código de curso : CM3602
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: metalurgia física,termodinámica de materiales
+
+Mecánica de materiales avanzada
+3 Créditos / 9 Horas
+Código de curso : CM3603
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: metalurgia física,resistencia de materiales
+
+Laboratorio tecnología aleaciones metálicas
+2 Créditos / 3 Horas
+Código de curso : CM4202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: tecnología de aleaciones metálicas
+Requisitos: metalurgia física,termodinámica de materiales
+
+Tecnología de polímeros
+2 Créditos / 3 Horas
+Código de curso : CM4305
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: materiales poliméricos
+
+Seminario de ética para la ingeniería
+2 Créditos / 5 Horas
+Código de curso : CS3404
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: introducción a la técnica ciencia y tecnología
+
+Semestre7:
+
+Ingeniería económica
+3 Créditos / 3 Horas
+Código de curso : AE5121
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: probabilidad y estadística
+
+Tecnología de maquinado
+3 Créditos / 4 Horas
+Código de curso : CM3205
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: metrología para ingeniería,tecnología de aleaciones metálicas
+
+Conformado de materiales
+4 Créditos / 4 Horas
+Código de curso : CM4307
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: mecánica de materiales avanzada
+
+Transferencia de calor y masa
+3 Créditos / 9 Horas
+Código de curso : CM4701
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: métodos numéricos para ingeniería,mecánica de fluidos
+
+Materiales cerámicos y compuestos
+3 Créditos / 9 Horas
+Código de curso : CM4702
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: metalurgia física,tecnología de polímeros
+
+Seminario de estudios costarricenses
+2 Créditos / 3 Horas
+Código de curso : CS4402
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: seminario de ética para la ingeniería
+
+Semestre8:
+
+Modelación y simulación
+4 Créditos / 4 Horas
+Código de curso : CM4101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: mecánica de materiales avanzada,transferencia de calor y masa
+
+Caracterización de materiales
+4 Créditos / 4 Horas
+Código de curso : CM4801
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: tecnología de polímeros,materiales cerámicos y compuestos
+
+Gestión de proyectos
+3 Créditos / 9 Horas
+Código de curso : CM4802
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: ingeniería económica
+
+Taller de diseño en ciencia e ingeniería de los materiales
+7 Créditos / 21 Horas
+Código de curso : CM4803
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: modelación y simulación,gestión de proyectos
+Requisitos: No posee requisitos
