@@ -17,6 +17,8 @@
 #define LONG_DIA 3
 #define CAMPOS_POR_BLOQUE 3
 #define MAX_FORMATO 40 
+#define OFFSET_GRUPO 4     
+#define MAX_CAMPOS 12
 
 #define RUTA_PLANM "data/entrada/plan_materiales.txt"
 #define RUTA_PLANC "data/entrada/plan_computadores.txt"

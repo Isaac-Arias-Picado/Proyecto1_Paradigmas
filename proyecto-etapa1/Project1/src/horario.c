@@ -5,8 +5,6 @@
 #include <ctype.h>
 #include "horario.h"
 
-#define MAX_CAMPOS 12
-
 static int hora_a_minutos(const char* hhmm) {
     int h = 0, m = 0;
     sscanf(hhmm, "%d:%d", &h, &m);
@@ -24,7 +22,7 @@ int horarios_chocan(const BloqueHorario* a, const BloqueHorario* b) {
 
 static int es_codigo_curso(const char* texto) {
     int len = (int)strlen(texto);
-    if (len != 6) return 0;
+    if (len != LONG_CODIGO) return 0;
     if (!isupper((unsigned char)texto[0]) || !isupper((unsigned char)texto[1])) return 0;
     for (int i = 2; i < len; i++) {
         if (!isdigit((unsigned char)texto[i])) return 0;
@@ -63,7 +61,6 @@ int parsear_horarios(const char* ruta, BloqueHorario bloques[], int max_bloques,
 
     char linea[MAX_LINEA];
     *num_bloques = 0;
-    int grupo_actual = 0;
 
     while (fgets(linea, sizeof(linea), archivo)) {
         linea[strcspn(linea, "\r\n")] = 0;
@@ -78,21 +75,21 @@ int parsear_horarios(const char* ruta, BloqueHorario bloques[], int max_bloques,
         }
         if (num_campos < 2) continue;
 
-        char* codigo = NULL;
+        int pos_codigo = -1;
         for (int i = 0; i < num_campos; i++) {
             if (es_codigo_curso(campos[i])) {
-                codigo = campos[i];
+                pos_codigo = i;
                 break;
             }
         }
-        if (codigo == NULL) continue;
+        if (pos_codigo == -1) continue;
 
+        char* codigo = campos[pos_codigo];
+        int grupo = 0;
+        sscanf(campos[pos_codigo + OFFSET_GRUPO], "%d", &grupo);
         char* horario = campos[num_campos - 1];
-
-        grupo_actual++;
-        agregar_bloques_de_horario(codigo, grupo_actual, horario, bloques, max_bloques, num_bloques);
+        agregar_bloques_de_horario(codigo, grupo, horario, bloques, max_bloques, num_bloques);
     }
-
     fclose(archivo);
     return 1;
 }
