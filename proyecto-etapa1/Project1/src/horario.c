@@ -34,11 +34,13 @@ static int es_codigo_curso(const char* texto) {
 
 static void agregar_bloques_de_horario(const char* codigo, int grupo, char* horario_texto, BloqueHorario bloques[], int max_bloques, int* num_bloques) {
     char* token = strtok(horario_texto, " ");
+    char formato[MAX_FORMATO];
+    snprintf(formato, sizeof(formato), "%%%d[^[][%%%d[^-]-%%%d[^]]]", LONG_DIA, LONG_HORA, LONG_HORA);
     while (token != NULL) {
-        char dia[4] = { 0 };
-        char hora_inicio[6] = { 0 };
-        char hora_fin[6] = { 0 };
-        if (sscanf(token, "%3[^[][%5[^-]-%5[^]]]", dia, hora_inicio, hora_fin) == 3) {
+        char dia[MAX_DIA] = { 0 };
+        char hora_inicio[MAX_HORA] = { 0 };
+        char hora_fin[MAX_HORA] = { 0 };
+        if (sscanf(token, formato, dia, hora_inicio, hora_fin) == CAMPOS_POR_BLOQUE) {
             if (*num_bloques < max_bloques) {
                 strcpy(bloques[*num_bloques].codigo_curso, codigo);
                 bloques[*num_bloques].grupo = grupo;
