@@ -60,3 +60,15 @@ int asociar_horarios(Curso cursos[], int num_cursos, BloqueHorario bloques[], in
     }
     return asociados;
 }
+
+void reportar_cursos_sin_grupos(Curso cursos[], int num_cursos) {
+    printf("Cursos sin horarios:\n");
+    int cursos_sin_horario = 0;
+    for (int i = 0; i < num_cursos; i++) {
+        if (cursos[i].num_grupos == 0) {
+            printf("Codigo: %s, Nombre: %s, Semestre: %d\n",cursos[i].codigo,cursos[i].nombre,cursos[i].semestre);
+            cursos_sin_horario++;
+        }
+    }
+    printf("Hay %d cursos sin horario\n", cursos_sin_horario);
+}
