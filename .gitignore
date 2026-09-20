@@ -50,3 +50,11 @@ Thumbs.db
 
 # Archivos de log
 *.log
+
+# Visual Studio
+.vs/
+x64/
+x86/
+*.VC.db
+*.VC.opendb
+ipch/
