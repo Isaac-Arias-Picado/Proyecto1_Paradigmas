@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\catalogo.c" />
     <ClCompile Include="src\curso.c" />
     <ClCompile Include="src\horario.c" />
     <ClCompile Include="src\main.c" />
@@ -26,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\constantes.h" />
+    <ClInclude Include="src\catalogo.h" />
     <ClInclude Include="src\curso.h" />
     <ClInclude Include="src\horario.h" />
     <ClInclude Include="src\parser.h" />
