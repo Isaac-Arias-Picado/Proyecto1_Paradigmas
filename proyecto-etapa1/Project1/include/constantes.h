@@ -8,7 +8,7 @@
 #define MAX_NOMBRE 150
 #define MAX_REQUISITOS 8
 #define MAX_CORREQUISITOS 8
-#define MAX_CURSOS 100
+#define MAX_CURSOS 50
 #define MAX_LINEA 500
 #define MAX_BLOQUES_HORARIO 1000
 #define MAX_HORA 6
@@ -19,6 +19,8 @@
 #define MAX_FORMATO 40 
 #define OFFSET_GRUPO 4     
 #define MAX_CAMPOS 12
+#define MAX_GRUPOS 50
+#define MAX_BLOQUES_GRUPO 4
 
 #define RUTA_PLANM "data/entrada/plan_materiales.txt"
 #define RUTA_PLANC "data/entrada/plan_computadores.txt"

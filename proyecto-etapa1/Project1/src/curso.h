@@ -3,6 +3,7 @@
 #define CURSO_H
 
 #include "../include/constantes.h"
+#include "horario.h"
 
 typedef struct {
     char codigo[MAX_CODIGO];
@@ -16,6 +17,9 @@ typedef struct {
     int semestre;
     int tiene_choque;
     int elegible;
+    Grupo grupos[MAX_GRUPOS];
+    int num_grupos;
+    int aprobado;
 } Curso;
 
 Curso* crear_curso();
