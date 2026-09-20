@@ -28,3 +28,32 @@ void detectar_choques(Curso cursos[], int num_cursos) {
         }
     }
 }
+
+int cursos_incompatibles(const Curso* a, const Curso* b) {
+    if (a->num_grupos == 0 || b->num_grupos == 0) {
+        return 0;
+    }
+    for (int i = 0; i < a->num_grupos; i++) {
+        for (int j = 0; j < b->num_grupos; j++) {
+            if (!grupos_chocan(&a->grupos[i], &b->grupos[j])) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+void reportar_choques_totales(Curso cursos[], int num_cursos) {
+    int incompatibles = 0;
+    for (int i = 0; i < num_cursos; i++) {
+        for (int j = i + 1; j < num_cursos; j++) {
+            if (cursos_incompatibles(&cursos[i], &cursos[j])) {
+                printf("Incompatibles: %s y %s\n", cursos[i].codigo, cursos[j].codigo);
+                incompatibles++;
+
+            }
+        }
+    }
+    if (incompatibles == 0) {
+        printf("No hay cursos con choque total\n");
+    }
+}
