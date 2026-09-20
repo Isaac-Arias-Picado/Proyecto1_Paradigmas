@@ -33,6 +33,9 @@
     <ClCompile Include="src\catalogo.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\choques.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\curso.h">
@@ -48,6 +51,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\catalogo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\choques.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
