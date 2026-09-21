@@ -36,14 +36,6 @@ Release/
 *.suo
 *.user
 
-# Archivos de datos de entrada/salida (si no quieres subir datos reales)
-*.csv
-*.json
-*.txt
-!README.md
-!*.h
-!*.c
-
 # Archivos de configuración local
 *.env
 config.local.h
@@ -58,3 +50,11 @@ Thumbs.db
 
 # Archivos de log
 *.log
+
+# Visual Studio
+.vs/
+x64/
+x86/
+*.VC.db
+*.VC.opendb
+ipch/

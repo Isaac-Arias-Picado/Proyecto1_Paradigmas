@@ -27,6 +27,15 @@
     <ClCompile Include="src\parser.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\horario.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catalogo.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\choques.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\curso.h">
@@ -37,6 +46,15 @@
     </ClInclude>
     <ClInclude Include="include\constantes.h">
       <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\horario.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\catalogo.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\choques.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

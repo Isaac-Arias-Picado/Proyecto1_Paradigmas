@@ -1,0 +1,372 @@
+Semestre0:
+
+Examen diagnóstico
+0 Créditos / 0 Horas
+Código de curso : CI0200
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Inglés básico
+2 Créditos / 3 Horas
+Código de curso : CI0202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre1:
+
+Comunicación escrita
+2 Créditos / 6 Horas
+Código de curso : CI1106
+Nombres Equivalentes :
+1. Comunicación técnica (CI1403)
+Nota :
+Periodo	Año	Nota
+-
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Introducción a la ciencia e ingeniería de los materiales
+3 Créditos / 8 Horas
+Código de curso : CM1103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Introducción a la técnica ciencia y tecnología
+1 Créditos / 2 Horas
+Código de curso : CS1502
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Matemática general
+2 Créditos / 5 Horas
+Código de curso : MA0101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Dibujo técnico
+3 Créditos / 9 Horas
+Código de curso : MI2101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Laboratorio de química básica i
+1 Créditos / 2 Horas
+Código de curso : QU1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: QU1106
+Requisitos: No posee requisitos
+
+Química básica i
+3 Créditos / 4 Horas
+Código de curso : QU1106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: QU1102
+Requisitos: No posee requisitos
+
+Actividad cultural i
+0 Créditos / 2 Horas
+Código de curso : SE1100
+Nombres Equivalentes :
+1. Acción social (SE1102)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre2:
+
+Elementos de computación
+3 Créditos / 4 Horas
+Código de curso : CA2125
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: MA0101
+
+Comunicación oral
+1 Créditos / 3 Horas
+Código de curso : CI1107
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: CI1106
+
+Inglés i
+2 Créditos / 6 Horas
+Código de curso : CI1230
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: CI0200,CI0202
+
+Física general i
+3 Créditos / 4 Horas
+Código de curso : FI1101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: MA1102
+Requisitos: No posee requisitos
+
+Laboratorio física general i
+1 Créditos / 2 Horas
+Código de curso : FI1201
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: FI1101
+Requisitos: No posee requisitos
+
+Cálculo diferencial e integral
+4 Créditos / 5 Horas
+Código de curso : MA1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA0101
+
+Laboratorio de química básica ii
+1 Créditos / 2 Horas
+Código de curso : QU1104
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: QU1107
+Requisitos: QU1102,QU1106
+
+Química básica ii
+3 Créditos / 4 Horas
+Código de curso : QU1107
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: QU1104
+Requisitos: QU1102,QU1106
+
+Semestre3:
+
+Inglés ii
+2 Créditos / 3 Horas
+Código de curso : CI1231
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: CI1230
+
+Termodinámica
+3 Créditos / 4 Horas
+Código de curso : CM2103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: MA1102,QU1107
+
+Física general ii
+3 Créditos / 4 Horas
+Código de curso : FI1102
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: FI1101,FI1201
+
+Laboratorio física general ii
+1 Créditos / 2 Horas
+Código de curso : FI1202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: FI1102
+Requisitos: FI1101,FI1201
+
+Cálculo y álgebra lineal
+4 Créditos / 4 Horas
+Código de curso : MA1103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA1102
+
+Química orgánica
+3 Créditos / 4 Horas
+Código de curso : QU2403
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: QU2404
+Requisitos: QU1104,QU1107
+
+Laboratorio de química orgánica
+2 Créditos / 4 Horas
+Código de curso : QU2404
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: QU2403
+Requisitos: QU1104,QU1107
+
+Actividad deportiva i
+0 Créditos / 2 Horas
+Código de curso : SE1200
+Nombres Equivalentes :
+1. Acondicionamiento físico (SE1206)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Semestre4:
+
+Metalurgia física
+3 Créditos / 9 Horas
+Código de curso : CM2401
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: CM3103
+Requisitos: CM2103
+
+Laboratorio de metalurgia física
+1 Créditos / 3 Horas
+Código de curso : CM2402
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: CM2401
+Requisitos: CM1103
+
+Termodinámica de materiales
+3 Créditos / 4 Horas
+Código de curso : CM3103
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: CM2103
+
+Ecuaciones diferenciales
+4 Créditos / 4 Horas
+Código de curso : MA2105
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA1103
+
+Estática
+3 Créditos / 4 Horas
+Código de curso : MI2106
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: FI1101,FI1201
+
+Dibujo industrial
+4 Créditos / 4 Horas
+Código de curso : MI3124
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -		
+Corequisitos: No posee corequisitos
+Requisitos: MI2101
+
+Actividad cultural-deportiva
+0 Créditos / 2 Horas
+Código de curso : SE1400
+Nombres Equivalentes :
+1. Dinámica de la cultura (SE1109)
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
