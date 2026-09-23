@@ -72,3 +72,15 @@ void reportar_cursos_sin_grupos(Curso cursos[], int num_cursos) {
     }
     printf("Hay %d cursos sin horario\n", cursos_sin_horario);
 }
+
+void marcar_aprobados(Curso cursos[], int num_cursos, char historial[][MAX_CODIGO], int num_historial) {
+    for (int i = 0; i < num_historial; i++) {
+        Curso* c = buscar_curso(cursos, num_cursos, historial[i]);
+        if (c == NULL) {
+            printf("Aviso: el curso %s del historial no esta en el plan\n", historial[i]);
+        }
+        else {
+            c->aprobado = 1;
+        }
+    }
+}
