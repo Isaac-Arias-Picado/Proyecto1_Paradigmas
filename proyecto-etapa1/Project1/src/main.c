@@ -54,12 +54,6 @@ int main() {
     int num_materiales = 0;
     procesar_carrera(RUTA_PLANM, RUTA_HISTORIALM, RUTA_HORARIOSM, cursos_materiales, &num_materiales);
 
-    int elegibles_m = 0;
-    for (int i = 0; i < num_materiales; i++) {
-        if (cursos_materiales[i].elegible) elegibles_m++;
-    }
-    printf("Materiales: %d cursos elegibles de %d\n", elegibles_m, num_materiales);
-
     // Exportar catálogo de Materiales a JSON
     exportar_a_json(cursos_materiales, num_materiales, "data/salida/catalogo_materiales.json");
 
@@ -67,12 +61,6 @@ int main() {
     Curso cursos_computadores[MAX_CURSOS];
     int num_computadores = 0;
     procesar_carrera(RUTA_PLANC, RUTA_HISTORIALC, RUTA_HORARIOSC, cursos_computadores, &num_computadores);
-
-    int elegibles_c = 0;
-    for (int i = 0; i < num_computadores; i++) {
-        if (cursos_computadores[i].elegible) elegibles_c++;
-    }
-    printf("Computadores: %d cursos elegibles de %d\n", elegibles_c, num_computadores);
 
     // Exportar catálogo de Computadores a JSON
     exportar_a_json(cursos_computadores, num_computadores, "data/salida/catalogo_computadores.json");
