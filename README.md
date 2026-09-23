@@ -6,7 +6,7 @@
 **Autores:**  Isaac Arias Picado, Jose Chavarria Gamboa, Alexander Angulo Serrano 
 
 ## 1. Arquitectura del Proyecto
-El sistema fue desarrollado utilizando el paradigma imperativo en el lenguaje C. La arquitectura es modular, separando la lógica de negocio en múltiples archivos fuente y cabeceras para aislar responsabilidades. Se implementó un archivo específico `constantes.h` para centralizar todos los valores fijos del sistema, cumpliendo con las normativas operativas del proyecto[cite: 5].
+El sistema fue desarrollado utilizando el paradigma imperativo en el lenguaje C. La arquitectura es modular, separando la lógica de negocio en múltiples archivos fuente y cabeceras para aislar responsabilidades. Se implementó un archivo específico `constantes.h` para centralizar todos los valores fijos del sistema, cumpliendo con las normativas operativas del proyecto.
 
 Los módulos principales son:
 *   **`main.c`**: Archivo orquestador. Ejecuta el flujo principal mediante la función `procesar_carrera`, la cual carga los datos, asocia los horarios, marca aprobados, detecta choques, valida requisitos y finalmente llama al exportador JSON.
@@ -19,7 +19,7 @@ Los módulos principales son:
 ## 2. Decisiones de Diseño
 
 ### 2.1 Justificación de decisiones propias y del dataset
-Se decidió trabajar con los planes de estudio de la carrera obligatoria de **Ingeniería en Computadores** y la carrera de **Ingeniería de Materiales**[cite: 5]. Para mantener la pureza en el manejo de memoria en C y evitar fugas (`memory leaks`), se optó por definir las estructuras principales mediante arreglos estáticos dimensionados por constantes máximas (ej. `MAX_CURSOS`, `MAX_GRUPOS`).
+Se decidió trabajar con los planes de estudio de la carrera obligatoria de **Ingeniería en Computadores** y la carrera de **Ingeniería de Materiales**. Para mantener la pureza en el manejo de memoria en C y evitar fugas (`memory leaks`), se optó por definir las estructuras principales mediante arreglos estáticos dimensionados por constantes máximas (ej. `MAX_CURSOS`, `MAX_GRUPOS`).
 En cuanto al dataset de horarios, se decidió aislar la extracción de los componentes temporales utilizando delimitadores y lectura formateada (`sscanf` y `strtok`), lo que permite tolerar ligeras variaciones en los espacios en blanco del archivo original copiado de la Guía de Horarios institucional.
 
 ### 2.2 Caso límite real encontrado y resolución
@@ -28,10 +28,10 @@ En cuanto al dataset de horarios, se decidió aislar la extracción de los compo
 **Resolución:** En `requisitos.c`, la función `correquisito_cumplido` se diseñó para no solo verificar si el correquisito está en el historial, sino que, si no lo está, delega la verificación iterando sobre el arreglo de requisitos del propio correquisito. Si alguno de los requisitos del curso "B" falla, la función retorna `0`, impidiendo lógicamente la matrícula del curso "A".
 
 ### 2.3 Justificación del formato de salida
-Se eligió **JSON** como formato de serialización por tratarse de un estándar jerárquico. Dado que este archivo servirá como insumo para las siguientes etapas en Racket, Prolog y Java[cite: 5], JSON permite anidar de forma natural la relación de uno a muchos (Un Curso -> Múltiples Grupos -> Múltiples Bloques Horarios). Utilizar un formato plano como CSV hubiera requerido duplicar excesivamente los datos del curso por cada bloque horario, complicando innecesariamente el parseo en los lenguajes funcionales y lógicos posteriores.
+Se eligió **JSON** como formato de serialización por tratarse de un estándar jerárquico. Dado que este archivo servirá como insumo para las siguientes etapas en Racket, Prolog y Java, JSON permite anidar de forma natural la relación de uno a muchos (Un Curso -> Múltiples Grupos -> Múltiples Bloques Horarios). Utilizar un formato plano como CSV hubiera requerido duplicar excesivamente los datos del curso por cada bloque horario, complicando innecesariamente el parseo en los lenguajes funcionales y lógicos posteriores.
 
 ## 3. Estructuras de Datos Desarrolladas
-Se hizo un uso estricto de `structs` para modelar la información académica[cite: 5]:
+Se hizo un uso estricto de `structs` para modelar la información académica:
 
 1.  **`BloqueHorario`**: Estructura base que almacena los metadatos de un bloque de clases (día, hora_inicio, hora_fin) y las llaves foráneas lógicas (`codigo_curso`, `grupo`).
 2.  **`Grupo`**: Estructura intermedia que agrupa un arreglo de `BloqueHorario`s asociados a un mismo número de grupo, y mantiene un indicador booleano (`tiene_choque`) específico para esa combinación.
