@@ -224,7 +224,7 @@ Nota :
 Periodo	Año	Nota
 1. -
 Corequisitos: No posee corequisitos
-Requisitos: CI1407
+Requisitos: No posee requisitos
 
 Circuitos eléctricos en corriente continua
 4 Créditos / 4 Horas
