@@ -44,18 +44,12 @@ static int procesar_carrera(const char* ruta_plan, const char* ruta_historial, c
 
     return 1;
 }
-    exportar_a_json(cursos, num_cursos1, "data/salida/catalogo_materiales.json");
-
-    // 1. Cargar plan de estudios
-    if (!parsear_plan_estudios(RUTA_PLANC, cursos, &num_cursos2)) {
-        printf("Error al cargar el plan de estudios\n");
-        return 1;
-    }
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
+    // 1. Procesamiento de Ingeniería en Materiales
     Curso cursos_materiales[MAX_CURSOS];
     int num_materiales = 0;
     procesar_carrera(RUTA_PLANM, RUTA_HISTORIALM, RUTA_HORARIOSM, cursos_materiales, &num_materiales);
@@ -66,6 +60,10 @@ int main() {
     }
     printf("Materiales: %d cursos elegibles de %d\n", elegibles_m, num_materiales);
 
+    // Exportar catálogo de Materiales a JSON
+    exportar_a_json(cursos_materiales, num_materiales, "data/salida/catalogo_materiales.json");
+
+    // 2. Procesamiento de Ingeniería en Computadores
     Curso cursos_computadores[MAX_CURSOS];
     int num_computadores = 0;
     procesar_carrera(RUTA_PLANC, RUTA_HISTORIALC, RUTA_HORARIOSC, cursos_computadores, &num_computadores);
@@ -76,11 +74,8 @@ int main() {
     }
     printf("Computadores: %d cursos elegibles de %d\n", elegibles_c, num_computadores);
 
-    exportar_a_json(cursos, num_cursos2, "data/salida/catalogo_computadores.json");
-
-    // TODO: Validar requisitos
-    // TODO: Detectar choques (necesita horarios)
-
+    // Exportar catálogo de Computadores a JSON
+    exportar_a_json(cursos_computadores, num_computadores, "data/salida/catalogo_computadores.json");
 
     return 0;
 }

@@ -26,6 +26,7 @@
     <ClCompile Include="src\horario.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\parser.c" />
+    <ClCompile Include="src\requisitos.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\constantes.h" />
@@ -35,6 +36,7 @@
     <ClInclude Include="src\exportador.h" />
     <ClInclude Include="src\horario.h" />
     <ClInclude Include="src\parser.h" />
+    <ClInclude Include="src\requisitos.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\entrada\plan_materiales.txt" />

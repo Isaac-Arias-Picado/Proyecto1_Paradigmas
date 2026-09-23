@@ -36,7 +36,7 @@ void exportar_a_json(Curso cursos[], int num_cursos, const char* ruta_salida) {
 
         fprintf(archivo, "    \"tiene_choque\": %s,\n", cursos[i].tiene_choque ? "true" : "false");
 
-        fprintf(archivo, "    \"puede_matricular\": false,\n");
+        fprintf(archivo, "    \"puede_matricular\": %s,\n", cursos[i].elegible ? "true" : "false");
 
         fprintf(archivo, "    \"grupos\": [\n");
         for (int j = 0; j < cursos[i].num_grupos; j++) {
