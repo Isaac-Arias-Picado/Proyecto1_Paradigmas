@@ -4,6 +4,7 @@
 #include <string.h>
 #include "curso.h"
 #include "parser.h"
+#include "exportador.h"
 #include "horario.h"
 #include "catalogo.h"
 #include "choques.h"
@@ -48,6 +49,7 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
+    // 1. Procesamiento de Ingeniería en Materiales
     Curso cursos_materiales[MAX_CURSOS];
     int num_materiales = 0;
     procesar_carrera(RUTA_PLANM, RUTA_HISTORIALM, RUTA_HORARIOSM, cursos_materiales, &num_materiales);
@@ -58,6 +60,10 @@ int main() {
     }
     printf("Materiales: %d cursos elegibles de %d\n", elegibles_m, num_materiales);
 
+    // Exportar catálogo de Materiales a JSON
+    exportar_a_json(cursos_materiales, num_materiales, "data/salida/catalogo_materiales.json");
+
+    // 2. Procesamiento de Ingeniería en Computadores
     Curso cursos_computadores[MAX_CURSOS];
     int num_computadores = 0;
     procesar_carrera(RUTA_PLANC, RUTA_HISTORIALC, RUTA_HORARIOSC, cursos_computadores, &num_computadores);
@@ -67,6 +73,9 @@ int main() {
         if (cursos_computadores[i].elegible) elegibles_c++;
     }
     printf("Computadores: %d cursos elegibles de %d\n", elegibles_c, num_computadores);
+
+    // Exportar catálogo de Computadores a JSON
+    exportar_a_json(cursos_computadores, num_computadores, "data/salida/catalogo_computadores.json");
 
     return 0;
 }
