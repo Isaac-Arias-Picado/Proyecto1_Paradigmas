@@ -4,6 +4,7 @@
 #include <string.h>
 #include "curso.h"
 #include "parser.h"
+#include "exportador.h"
 #include "../include/constantes.h"
 #include <windows.h>
 
@@ -38,6 +39,8 @@ int main() {
         printf("\n");
     }
 
+    exportar_a_json(cursos, num_cursos1, "data/salida/catalogo_materiales.json");
+
     // 1. Cargar plan de estudios
     if (!parsear_plan_estudios(RUTA_PLANC, cursos, &num_cursos2)) {
         printf("Error al cargar el plan de estudios\n");
@@ -57,9 +60,11 @@ int main() {
         printf("\n");
     }
 
+    exportar_a_json(cursos, num_cursos2, "data/salida/catalogo_computadores.json");
+
     // TODO: Validar requisitos
     // TODO: Detectar choques (necesita horarios)
-    // TODO: Exportar JSON
+
 
     return 0;
 }

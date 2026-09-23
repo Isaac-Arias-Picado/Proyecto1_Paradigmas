@@ -22,6 +22,7 @@
     <ClCompile Include="src\catalogo.c" />
     <ClCompile Include="src\choques.c" />
     <ClCompile Include="src\curso.c" />
+    <ClCompile Include="src\exportador.c" />
     <ClCompile Include="src\horario.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\parser.c" />
@@ -31,6 +32,7 @@
     <ClInclude Include="src\catalogo.h" />
     <ClInclude Include="src\choques.h" />
     <ClInclude Include="src\curso.h" />
+    <ClInclude Include="src\exportador.h" />
     <ClInclude Include="src\horario.h" />
     <ClInclude Include="src\parser.h" />
   </ItemGroup>

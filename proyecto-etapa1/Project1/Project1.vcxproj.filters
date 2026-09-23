@@ -36,6 +36,9 @@
     <ClCompile Include="src\choques.c">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\exportador.c">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\curso.h">
@@ -54,6 +57,9 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="src\choques.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exportador.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
