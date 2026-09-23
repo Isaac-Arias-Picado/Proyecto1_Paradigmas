@@ -6,7 +6,7 @@
 **Autores:**  Isaac Arias Picado, Jose Chavarria Gamboa, Alexander Angulo Serrano 
 
 ## 1. Arquitectura del Proyecto
-El sistema fue desarrollado utilizando el paradigma imperativo en el lenguaje C[cite: 5]. La arquitectura es modular, separando la lógica de negocio en múltiples archivos fuente y cabeceras para aislar responsabilidades. Se implementó un archivo específico `constantes.h` para centralizar todos los valores fijos del sistema, cumpliendo con las normativas operativas del proyecto[cite: 5].
+El sistema fue desarrollado utilizando el paradigma imperativo en el lenguaje C. La arquitectura es modular, separando la lógica de negocio en múltiples archivos fuente y cabeceras para aislar responsabilidades. Se implementó un archivo específico `constantes.h` para centralizar todos los valores fijos del sistema, cumpliendo con las normativas operativas del proyecto[cite: 5].
 
 Los módulos principales son:
 *   **`main.c`**: Archivo orquestador. Ejecuta el flujo principal mediante la función `procesar_carrera`, la cual carga los datos, asocia los horarios, marca aprobados, detecta choques, valida requisitos y finalmente llama al exportador JSON.
