@@ -14,7 +14,11 @@ void exportar_a_json(Curso cursos[], int num_cursos, const char* ruta_salida) {
         fprintf(archivo, "  {\n");
         fprintf(archivo, "    \"codigo\": \"%s\",\n", cursos[i].codigo);
         fprintf(archivo, "    \"nombre\": \"%s\",\n", cursos[i].nombre);
+        fprintf(archivo, "    \"carrera\": \"%s\",\n", cursos[i].carrera);       
+        fprintf(archivo, "    \"semestre\": %d,\n", cursos[i].semestre);    
         fprintf(archivo, "    \"creditos\": %d,\n", cursos[i].creditos);
+        fprintf(archivo, "    \"horas\": %d,\n", cursos[i].horas);       
+        fprintf(archivo, "    \"aprobado\": %s,\n", cursos[i].aprobado ? "true" : "false"); 
 
         fprintf(archivo, "    \"requisitos\": [");
         for (int j = 0; j < cursos[i].num_requisitos; j++) {
@@ -43,6 +47,7 @@ void exportar_a_json(Curso cursos[], int num_cursos, const char* ruta_salida) {
             fprintf(archivo, "      {\n");
             fprintf(archivo, "        \"numero\": %d,\n", cursos[i].grupos[j].numero);
             fprintf(archivo, "        \"tiene_choque\": %s,\n", cursos[i].grupos[j].tiene_choque ? "true" : "false");
+            fprintf(archivo, "        \"num_bloques\": %d,\n", cursos[i].grupos[j].num_bloques);
             fprintf(archivo, "        \"horarios\": [\n");
             for (int k = 0; k < cursos[i].grupos[j].num_bloques; k++) {
                 fprintf(archivo, "          {\n");

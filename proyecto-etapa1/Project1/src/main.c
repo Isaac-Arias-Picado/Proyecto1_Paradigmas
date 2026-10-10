@@ -14,11 +14,11 @@
 
 #define MAX_HISTORIAL 100
 
-static int procesar_carrera(const char* ruta_plan, const char* ruta_historial, const char* ruta_horarios,
-    Curso cursos[], int* num_cursos) {
+static int procesar_carrera(const char* ruta_plan, const char* nombre_carrera,
+    const char* ruta_historial, const char* ruta_horarios, Curso cursos[], int* num_cursos) {
     memset(cursos, 0, sizeof(Curso) * MAX_CURSOS);
 
-    if (!parsear_plan_estudios(ruta_plan, cursos, num_cursos)) {
+    if (!parsear_plan_estudios(ruta_plan, nombre_carrera, cursos, num_cursos)) {
         printf("Error al cargar el plan de estudios\n");
         return 0;
     }
@@ -39,8 +39,8 @@ static int procesar_carrera(const char* ruta_plan, const char* ruta_historial, c
 
     asociar_horarios(cursos, *num_cursos, bloques, num_bloques);
     marcar_aprobados(cursos, *num_cursos, historial, num_historial);
-    detectar_choques(cursos, *num_cursos);
     validar_requisitos(cursos, *num_cursos);
+    detectar_choques(cursos, *num_cursos);
 
     return 1;
 }
@@ -49,21 +49,26 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
+    static Curso cursos_materiales[MAX_CURSOS];
+    static Curso cursos_computadores[MAX_CURSOS];
+
     // 1. Procesamiento de Ingeniería en Materiales
-    Curso cursos_materiales[MAX_CURSOS];
     int num_materiales = 0;
-    procesar_carrera(RUTA_PLANM, RUTA_HISTORIALM, RUTA_HORARIOSM, cursos_materiales, &num_materiales);
+    procesar_carrera(RUTA_PLANM, CARRERA_MATERIALES,
+        RUTA_HISTORIALM, RUTA_HORARIOSM,
+        cursos_materiales, &num_materiales);
 
     // Exportar catálogo de Materiales a JSON
-    exportar_a_json(cursos_materiales, num_materiales, "data/salida/catalogo_materiales.json");
+    exportar_a_json(cursos_materiales, num_materiales, RUTA_SALIDA_M);
 
     // 2. Procesamiento de Ingeniería en Computadores
-    Curso cursos_computadores[MAX_CURSOS];
     int num_computadores = 0;
-    procesar_carrera(RUTA_PLANC, RUTA_HISTORIALC, RUTA_HORARIOSC, cursos_computadores, &num_computadores);
+    procesar_carrera(RUTA_PLANC, CARRERA_COMPUTADORES,
+        RUTA_HISTORIALC, RUTA_HORARIOSC,
+        cursos_computadores, &num_computadores);
 
     // Exportar catálogo de Computadores a JSON
-    exportar_a_json(cursos_computadores, num_computadores, "data/salida/catalogo_computadores.json");
+    exportar_a_json(cursos_computadores, num_computadores, RUTA_SALIDA_C);
 
     return 0;
 }

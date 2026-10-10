@@ -8,6 +8,7 @@
 typedef struct {
     char codigo[MAX_CODIGO];
     char nombre[MAX_NOMBRE];
+    char carrera[MAX_NOMBRE];
     int creditos;
     int horas;
     char requisitos[MAX_REQUISITOS][MAX_NOMBRE];

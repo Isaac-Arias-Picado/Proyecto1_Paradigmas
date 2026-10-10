@@ -14,7 +14,9 @@ int grupos_chocan(const Grupo* a, const Grupo* b) {
 
 void detectar_choques(Curso cursos[], int num_cursos) {
     for (int i = 0; i < num_cursos; i++) {
+        if (!cursos[i].elegible) continue;
         for (int j = i + 1; j < num_cursos; j++) {
+            if (!cursos[j].elegible) continue;
             for (int x = 0; x < cursos[i].num_grupos; x++) {
                 for (int y = 0; y < cursos[j].num_grupos; y++) {
                     if (grupos_chocan(&cursos[i].grupos[x], &cursos[j].grupos[y])) {

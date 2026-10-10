@@ -1,0 +1,4776 @@
+[
+  {
+    "codigo": "CI0200",
+    "nombre": "Examen diagnóstico",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 0,
+    "creditos": 0,
+    "horas": 0,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+    ]
+  },
+  {
+    "codigo": "CI0202",
+    "nombre": "Inglés básico",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 0,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CI1106",
+    "nombre": "Comunicación escrita",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 2,
+    "horas": 6,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM1103",
+    "nombre": "Introducción a la ciencia e ingeniería de los materiales",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 3,
+    "horas": 8,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+    ]
+  },
+  {
+    "codigo": "CS1502",
+    "nombre": "Introducción a la técnica ciencia y tecnología",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MA0101",
+    "nombre": "Matemática general",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 2,
+    "horas": 5,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "SAB",
+            "hora_inicio": "07:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MI2101",
+    "nombre": "Dibujo técnico",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU1102",
+    "nombre": "Laboratorio de química básica i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": ["QU1106"],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU1106",
+    "nombre": "Química básica i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": ["QU1102"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "SE1100",
+    "nombre": "Actividad cultural i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 1,
+    "creditos": 0,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+    ]
+  },
+  {
+    "codigo": "CA2125",
+    "nombre": "Elementos de computación",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MA0101"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CI1107",
+    "nombre": "Comunicación oral",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 1,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CI1106"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 20,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 21,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 22,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 23,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 24,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 25,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 26,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 27,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 28,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 29,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 30,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 31,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 32,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 33,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CI1230",
+    "nombre": "Inglés i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 2,
+    "horas": 6,
+    "aprobado": false,
+    "requisitos": ["CI0200", "CI0202"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "FI1101",
+    "nombre": "Física general i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": ["MA1102"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 20,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "FI1201",
+    "nombre": "Laboratorio física general i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": ["FI1101"],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 22,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 23,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 24,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 25,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 26,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 27,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 29,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MA1102",
+    "nombre": "Cálculo diferencial e integral",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 4,
+    "horas": 5,
+    "aprobado": false,
+    "requisitos": ["MA0101"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "10:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "10:30",
+            "hora_fin": "12:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "10:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 20,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 21,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "SAB",
+            "hora_inicio": "07:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 22,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU1104",
+    "nombre": "Laboratorio de química básica ii",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": ["QU1102", "QU1106"],
+    "correquisitos": ["QU1107"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 21,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 22,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 23,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 24,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 26,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 27,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 28,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 29,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 31,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU1107",
+    "nombre": "Química básica ii",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 2,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["QU1102", "QU1106"],
+    "correquisitos": ["QU1104"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CI1231",
+    "nombre": "Inglés ii",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CI1230"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM2103",
+    "nombre": "Termodinámica",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MA1102", "QU1107"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "FI1102",
+    "nombre": "Física general ii",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["FI1101", "FI1201"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "FI1202",
+    "nombre": "Laboratorio física general ii",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": ["FI1101", "FI1201"],
+    "correquisitos": ["FI1102"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MA1103",
+    "nombre": "Cálculo y álgebra lineal",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MA1102"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 12,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 13,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 14,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 15,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 16,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 17,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      },
+      {
+        "numero": 18,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "SAB",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 19,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU2403",
+    "nombre": "Química orgánica",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["QU1104", "QU1107"],
+    "correquisitos": ["QU2404"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "QU2404",
+    "nombre": "Laboratorio de química orgánica",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 2,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["QU1104", "QU1107"],
+    "correquisitos": ["QU2403"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "SE1200",
+    "nombre": "Actividad deportiva i",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 3,
+    "creditos": 0,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+    ]
+  },
+  {
+    "codigo": "CM2401",
+    "nombre": "Metalurgia física",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM2103"],
+    "correquisitos": ["CM3103"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM2402",
+    "nombre": "Laboratorio de metalurgia física",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 1,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CM1103"],
+    "correquisitos": ["CM2401"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "16:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3103",
+    "nombre": "Termodinámica de materiales",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CM2103"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MA2105",
+    "nombre": "Ecuaciones diferenciales",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MA1103"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "SAB",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "SAB",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MI2106",
+    "nombre": "Estática",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["FI1101", "FI1201"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MI3124",
+    "nombre": "Dibujo industrial",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MI2101"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "SE1400",
+    "nombre": "Actividad cultural-deportiva",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 4,
+    "creditos": 0,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+    ]
+  }
+]

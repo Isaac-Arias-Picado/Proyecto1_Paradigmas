@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <string.h>
+#include <stdio.h>
 #include "catalogo.h"
 
 Curso* buscar_curso(Curso cursos[], int num_cursos, const char* codigo) {

@@ -6,7 +6,8 @@
 #include "parser.h"
 #include "curso.h"
 
-int parsear_plan_estudios(const char* ruta, Curso cursos[], int* num_cursos) {
+int parsear_plan_estudios(const char* ruta, const char* carrera,
+    Curso cursos[], int* num_cursos) {
     FILE* archivo = fopen(ruta, "r");
     if (archivo == NULL) {
         printf("Error: No se pudo abrir %s\n", ruta);
@@ -109,6 +110,7 @@ int parsear_plan_estudios(const char* ruta, Curso cursos[], int* num_cursos) {
             return 0;
         }
         strcpy(c->nombre, linea);
+        strcpy(c->carrera, carrera);
         c->semestre = semestre_actual;
     }
 

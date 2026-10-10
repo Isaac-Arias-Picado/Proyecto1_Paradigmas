@@ -3,6 +3,8 @@
 #ifndef CONSTANTES_H
 #define CONSTANTES_H
 
+#define CARRERA_COMPUTADORES "Ingenieria en Computadores"
+#define CARRERA_MATERIALES   "Ingenieria en Materiales"
 #define MAX_CODIGO 7
 #define LONG_CODIGO 6
 #define MAX_NOMBRE 150
