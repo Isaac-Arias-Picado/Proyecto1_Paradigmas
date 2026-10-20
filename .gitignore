@@ -58,3 +58,9 @@ x86/
 *.VC.db
 *.VC.opendb
 ipch/
+
+# Archivos compilados y temporales de Racket y DrRacket
+compiled/
+**/compiled/
+*.zo
+*.dep
