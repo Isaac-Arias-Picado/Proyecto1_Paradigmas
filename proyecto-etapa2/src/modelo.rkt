@@ -22,5 +22,5 @@
               [creditos-max : Integer]
               [interes : (Listof (List String (Listof Integer)))]))
 
-(struct Combo ([seleccion : (Listof (List String Integer))]
+(struct Combo ([seleccion : (Listof (List String Integer String))]
                [creditos-totales : Integer]))

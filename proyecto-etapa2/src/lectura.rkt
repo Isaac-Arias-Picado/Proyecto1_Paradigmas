@@ -63,10 +63,13 @@
 (define (leer-catalogo ruta)
   (define contenido (file->string ruta))
   (define datos (js->list (string->jsexpr contenido)))
-  (define cursos (map json->curso datos))
+  (define datos-elegibles
+    (filter (λ ([d : Any])
+              (equal? (hash-ref (js->hash d) 'puede_matricular #f) #t))
+            datos))
+  (define cursos (map json->curso datos-elegibles))
   (filter (λ ([c : Curso]) (positive? (length (Curso-grupos c))))
           cursos))
-
 (: json->par-interes : Any -> (List String (Listof Integer)))
 (define (json->par-interes j)
   (define h (js->hash j))

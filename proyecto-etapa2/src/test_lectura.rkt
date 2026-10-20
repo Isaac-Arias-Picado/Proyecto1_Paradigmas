@@ -34,3 +34,28 @@
 (displayln (string-append "b1 vs b3 (esperado #f): " (if (bloques-chocan? b1 b3) "true" "false")))
 (displayln (string-append "b2 vs b3 (esperado #t): " (if (bloques-chocan? b2 b3) "true" "false")))
 (displayln (string-append "b1 vs b4 (esperado #f): " (if (bloques-chocan? b1 b4) "true" "false")))
+
+
+;; 4. Probar generador de horarios
+(require "generador.rkt")
+
+(: imprimir-primeros : (Streamof Combo) Integer -> Void)
+(define (imprimir-primeros s n)
+  (when (and (> n 0) (not (stream-vacio? s)))
+    (define c (stream-primero s))
+    (displayln (string-append "  Créditos: "
+                              (number->string (Combo-creditos-totales c))
+                              " -> "
+                              (format "~a" (Combo-seleccion c))))
+    (imprimir-primeros (stream-resto s) (- n 1))))
+
+(displayln "")
+(displayln "=== Generador (Streams) ===")
+(define stream-combos (generar-desde-datos cursos p))
+(displayln (string-append "¿Stream vacío?: " (if (stream-vacio? stream-combos) "sí" "no")))
+
+(when (not (stream-vacio? stream-combos))
+  (displayln "Primeras 5 combinaciones generadas:")
+  (imprimir-primeros stream-combos 5)
+  (displayln (string-append "Total de combinaciones sin choque: "
+                            (number->string (stream-longitud stream-combos)))))
