@@ -370,3 +370,172 @@ Periodo	Año	Nota
 1. -
 Corequisitos: No posee corequisitos
 Requisitos: No posee requisitos
+
+Semestre5:
+
+Métodos numéricos para ingeniería
+3 Créditos / 4 Horas
+Código de curso : CM3207
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CA2125,MA2105
+
+Materiales poliméricos
+3 Créditos / 9 Horas
+Código de curso : CM3501
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: QU2403,QU2404
+
+Relaciones laborales
+2 Créditos / 6 Horas
+Código de curso : CS2303
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CS1502
+
+Centros de formación humanística
+0 Créditos / 2 Horas
+Código de curso : FH1000
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: No posee requisitos
+
+Resistencia de materiales
+3 Créditos / 4 Horas
+Código de curso : MI3115
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MI2106
+
+Electrotecnia
+3 Créditos / 4 Horas
+Código de curso : MI4510
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: FI1102,FI1202
+
+Probabilidad y estadística
+2 Créditos / 3 Horas
+Código de curso : PI2609
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA1103
+
+Fundamentos de seguridad e higiene ocupacional
+1 Créditos / 2 Horas
+Código de curso : SO2601
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CS2303
+Requisitos: No posee requisitos
+
+Semestre6:
+
+Metrología para ingeniería
+3 Créditos / 4 Horas
+Código de curso : CM3208
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MI3124,PI2609
+
+Mecánica de fluidos
+3 Créditos / 9 Horas
+Código de curso : CM3601
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM3103,CM3207
+
+Tecnología de aleaciones metálicas
+3 Créditos / 9 Horas
+Código de curso : CM3602
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM2401,CM3103
+
+Mecánica de materiales avanzada
+3 Créditos / 9 Horas
+Código de curso : CM3603
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM2401,MI3115
+
+Laboratorio tecnología aleaciones metálicas
+2 Créditos / 3 Horas
+Código de curso : CM4202
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CM3602
+Requisitos: CM2401,CM3103
+
+Tecnología de polímeros
+2 Créditos / 3 Horas
+Código de curso : CM4305
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM3501
+
+Seminario de ética para la ingeniería
+2 Créditos / 5 Horas
+Código de curso : CS3404
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CS1502

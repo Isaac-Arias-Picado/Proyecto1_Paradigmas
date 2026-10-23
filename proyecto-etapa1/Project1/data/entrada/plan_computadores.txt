@@ -348,3 +348,117 @@ Periodo	Año	Nota
 1. -
 Corequisitos: No posee corequisitos
 Requisitos: FI1102
+
+Semestre5:
+
+Fundamentos de arquitectura de computadores
+4 Créditos / 12 Horas
+Código de curso : CE1107
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: EL2207
+
+Bases de datos
+4 Créditos / 12 Horas
+Código de curso : CE3101
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE1106
+
+Taller de diseño digital
+2 Créditos / 6 Horas
+Código de curso : CE3201
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CE1107
+Requisitos: CE2201
+
+Ecuaciones diferenciales
+4 Créditos / 4 Horas
+Código de curso : MA2105
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA1103
+
+Ingeniería económica
+3 Créditos / 4 Horas
+Código de curso : PI5516
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: PI2609
+
+Semestre6:
+
+Compiladores e intérpretes
+4 Créditos / 12 Horas
+Código de curso : CE1108
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CE4301
+Requisitos: CE1107
+
+Circuitos analógicos
+4 Créditos / 12 Horas
+Código de curso : CE1109
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: EL2207,SO4604
+
+Análisis de señales mixtas
+4 Créditos / 12 Horas
+Código de curso : CE1110
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: EL2114,MA2105
+
+Arquitectura de computadores I
+4 Créditos / 12 Horas
+Código de curso : CE4301
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE1107,CE3201
+
+Inglés especializado para ingenierías en computadores
+2 Créditos / 6 Horas
+Código de curso : CI3203
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CI0205
