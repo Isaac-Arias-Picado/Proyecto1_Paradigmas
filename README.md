@@ -36,3 +36,58 @@ Se hizo un uso estricto de `structs` para modelar la información académica:
 1.  **`BloqueHorario`**: Almacena los datos que caracterizan a cada curso (día, hora_inicio, hora_fin) y también información útil para identificarlos (`codigo_curso`, `grupo`).
 2.  **`Grupo`**: Estructura intermedia que agrupa un arreglo de `BloqueHorario`s asociados a un mismo número de grupo, y mantiene un indicador booleano representado con 0 o 1 (`tiene_choque`) específico para esa combinación.
 3.  **`Curso`**: Es la estructura principal del programa. Almacena información importante (código, nombre, créditos, semestre), indicadores de estado (aprobado, elegible, tiene_choque), arreglos para almacenar los requisitos y correquisitos y un arreglo anidado de tipo `Grupo` con toda la disponibilidad temporal de la asignatura.
+
+---
+
+# Proyecto Etapa 2: Generador de Combinaciones de Horario
+
+## 1. Arquitectura del Proyecto
+Esta etapa se desarrolló con el paradigma funcional en Typed Racket. El programa toma el catálogo que genera el módulo de C, ya con los choques y la elegibilidad de cada curso calculados, junto con un archivo de preferencias del estudiante para cada carrera. Con eso genera las combinaciones de horario que no tienen choques, las filtra según el rango de créditos que pidió el estudiante y las exporta a un archivo JSON, que es el que va a leer la etapa de Prolog.
+
+El flujo es el mismo para las dos carreras. Primero se leen el catálogo y las preferencias, después se dejan solo los cursos y grupos que le interesan al estudiante, se generan las combinaciones como un stream, se filtran por créditos y al final se exportan. El programa se ejecuta corriendo `main.rkt` desde la carpeta `proyecto-etapa2/src`, ya que las rutas de los archivos son relativas a esa carpeta.
+
+Los módulos principales son:
+*   **`main.rkt`**: Archivo orquestador. La función `procesar-carrera` ejecuta el flujo completo para una carrera, y se llama una vez para Computadores y otra para Materiales.
+*   **`lectura.rkt`**: Lee el catálogo de C y las preferencias, y los convierte a las estructuras del programa. Solo conserva los cursos que el estudiante puede matricular y que tienen al menos un grupo, porque los demás no pueden formar parte de ninguna combinación.
+*   **`choques.rkt`**: Determina si dos grupos se traslapan en el tiempo, comparando sus bloques de horario convertidos a minutos.
+*   **`generador.rkt`**: Contiene la implementación de los streams, el filtro de cursos según la lista de interés, el generador de combinaciones y el filtro polimórfico `stream-filtrar`, que usa `filtrar-por-creditos`.
+*   **`exportador.rkt`**: Recorre el stream de combinaciones ya filtradas, le asigna un identificador a cada una y escribe el archivo de salida.
+*   **`modelo.rkt`**: Define los tipos de datos del programa.
+*   **`constantes.rkt`**: Agrupa las rutas de entrada y salida, igual que `constantes.h` en la etapa 1.
+*   **`test_lectura.rkt`**: Pruebas por consola de la lectura, los choques, el generador y el filtro por créditos.
+
+## 2. Decisiones de Diseño
+
+### 2.1 Justificación de decisiones propias
+Se implementaron streams propios, donde cada elemento guarda el primer valor ya calculado y el resto de la secuencia como una promesa (`delay`). Gracias a esto, ni el generador ni el filtro por créditos calculan combinaciones por adelantado. El stream solo se recorre al final, cuando el exportador lo necesita para escribir el archivo.
+
+El generador funciona como un árbol de decisiones. Para cada curso prueba sus grupos uno por uno y, antes de seguir con el siguiente curso, revisa que el grupo no choque con los que ya se eligieron. Si choca, esa rama se descarta en ese momento y la combinación nunca se termina de armar. Esta optimización solo se pide a los grupos de cuatro integrantes, pero se mantuvo porque evita trabajo innecesario. Los choques se vuelven a calcular en Racket porque el campo `tiene_choque` de C indica si un grupo choca con algún otro del catálogo, pero no dice con cuál, y para armar combinaciones hace falta saber si choca con los grupos elegidos en esa combinación en particular.
+
+La función `stream-filtrar` es polimórfica. No sabe qué tipo de datos hay en el stream ni qué criterio se aplica, solo recibe una función que decide si cada elemento se queda o no. `filtrar-por-creditos` la reutiliza pasándole como criterio una función que revisa si los créditos de una combinación están dentro del rango, y la misma función serviría para cualquier otro criterio. En todo el programa se evitó la mutación. Por ejemplo, el identificador de cada combinación no sale de un contador que se va modificando, sino que se pasa como parámetro y aumenta en uno en cada llamada recursiva.
+
+Para extender los planes de estudio a seis semestres se agregaron los semestres 5 y 6 a los archivos de entrada de la etapa 1, sin tocar su lógica, y se volvió a correr el módulo de C para regenerar los catálogos. Se mantuvo el mismo criterio de datos que antes, el período 2 de 2026 en la sede de Cartago. Se dejaron fuera los grupos de Tutoría y RN, ya que están pensados para estudiantes que repiten el curso y el historial no modela esa situación. Algunos grupos aparecen dos veces en la Guía de Horarios porque los imparten dos profesores, y se dejaron en una sola fila para no duplicar sus bloques de horario. Los historiales se actualizaron para simular un estudiante que entra al semestre 5 con un curso pendiente del semestre 4, así los cursos nuevos se pueden matricular y al mismo tiempo se ve a la validación de requisitos bloqueando otros.
+
+Las preferencias de prueba incluyen más de un grupo por curso, y algunos de esos grupos chocan entre sí a propósito para comprobar que el generador los descarta. En las preferencias de Materiales se incluyó también un curso que el estudiante no puede matricular por requisitos, CM3207, y el programa simplemente lo ignora.
+
+### 2.2 Caso límite real encontrado y resolución
+**Caso:** Un grupo por cada curso habilitado deja sin sentido el filtro por créditos.
+**Problema:** El enunciado pide combinaciones con un grupo por cada curso habilitado. Si eso se aplica de forma literal, todas las combinaciones tienen los mismos cursos y suman los mismos créditos, así que el filtro por rango deja pasar todas o ninguna. Esto se vio en las primeras pruebas con Computadores, donde los cursos de interés sumaban 11 créditos y el rango pedido era de 12 a 18, por lo que el resultado siempre era cero combinaciones sin importar qué grupos se eligieran.
+**Resolución:** Se decidió que el generador permita subconjuntos de cursos. En cada curso se abren dos caminos, incluirlo con alguno de sus grupos compatibles o saltarlo, y esto se controla con el parámetro `permitir-subconjuntos?`. De esta forma salen combinaciones con distintos totales de créditos y el filtro por rango cumple su función. Con los datos actuales, Computadores produce 65 combinaciones entre 12 y 18 créditos. Se conservó también `generar-combinaciones-estrictas`, que solo genera combinaciones con todos los cursos, por si se necesita la interpretación literal.
+
+### 2.3 Justificación del formato de salida
+Se eligió **JSON**, el mismo formato de la etapa 1. Cada combinación tiene una cantidad variable de cursos, y JSON lo representa de forma natural con una lista dentro de cada combinación. En un formato plano como CSV habría que repetir los datos de la combinación por cada curso que contiene. Cada curso se exporta como un objeto con `codigo`, `grupo` y `carrera`, en lugar de un arreglo, para que Prolog pueda acceder a cada dato por su nombre sin depender del orden.
+
+Además de los campos obligatorios, se agregó un `id` a cada combinación, porque Prolog va a descartar algunas al aplicar sus reglas y Java necesita una forma de referirse a las que quedaron. También se agregaron `creditos_min`, `creditos_max` y `total_combinaciones` al inicio del archivo, a raíz de un caso que apareció en las pruebas. Cuando ninguna combinación cumple el rango de créditos, el exportador igualmente escribe un JSON válido con la lista vacía, en lugar de dejar un archivo vacío o fallar, y con esos campos queda claro con qué rango se generó y por qué no hubo resultados. Los horarios de cada grupo no se repiten en la salida, ya que están en el catálogo de C y se pueden obtener con el código del curso y el número de grupo.
+
+### 2.4 Validaciones que quedan para Prolog
+Las combinaciones exportadas no tienen choques y cumplen el rango de créditos, pero pueden incluir un curso sin su correquisito, por ejemplo CE3201 sin CE1107. El módulo de C ya validó que cada curso por separado se puede matricular, incluyendo sus correquisitos. Revisar que un curso y su correquisito vengan juntos en la misma combinación es una regla de compatibilidad entre cursos, y el enunciado indica que este módulo no debe aplicar reglas de restricción más allá de los créditos, por lo que esa validación le corresponde a la etapa de Prolog.
+
+## 3. Estructuras de Datos Desarrolladas
+Todas las estructuras se definen en `modelo.rkt` como `struct` tipados e inmutables.
+
+1.  **`Bloque`**: Un bloque de horario de un grupo. Guarda el día y las horas de inicio y fin convertidas a minutos desde la medianoche, para poder compararlas directamente.
+2.  **`Grupo`**: El número de grupo y su lista de bloques de horario.
+3.  **`Curso`**: Código, créditos, carrera de origen y la lista de grupos disponibles. Solo se crean para los cursos que el estudiante puede matricular.
+4.  **`Pref`**: Las preferencias del estudiante, con los créditos mínimos y máximos y la lista de cursos de interés, cada uno con los números de grupo que desea.
+5.  **`Combo`**: Una combinación generada, con los cursos elegidos (código, grupo y carrera) y la suma de sus créditos.
+6.  **`Streamof A`**: El tipo de stream polimórfico. Puede estar vacío o tener un primer elemento junto con la promesa del resto.
