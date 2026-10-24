@@ -2,8 +2,11 @@
   "creditos_min": 12,
   "creditos_max": 18,
   "interes": [
-    { "codigo": "CE2103", "grupos": [1] },
-    { "codigo": "FI1101", "grupos": [1, 3] },
-    { "codigo": "MA1103", "grupos": [2, 4] }
+    { "codigo": "CE1107", "grupos": [1] },
+    { "codigo": "CE3101", "grupos": [1, 2] },
+    { "codigo": "CE3201", "grupos": [1] },
+    { "codigo": "MA2105", "grupos": [1, 3] },
+    { "codigo": "PI5516", "grupos": [1, 2] },
+    { "codigo": "SO4604", "grupos": [1, 2] }
   ]
 }
