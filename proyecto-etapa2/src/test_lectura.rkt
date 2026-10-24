@@ -59,3 +59,17 @@
   (imprimir-primeros stream-combos 5)
   (displayln (string-append "Total de combinaciones sin choque: "
                             (number->string (stream-longitud stream-combos)))))
+;; 5. Probar filtro por créditos
+(displayln "")
+(displayln "=== Filtro por créditos ===")
+
+;; Con el rango del archivo de preferencias (12 - 18)
+(define combos-en-rango (filtrar-por-creditos stream-combos p))
+(displayln (string-append "Combinaciones en rango 12 - 18: "
+                          (number->string (stream-longitud combos-en-rango))))
+
+;; Con un rango de prueba (7 - 11)
+(define combos-prueba (filtrar-por-creditos stream-combos (Pref 7 11 '())))
+(displayln "Combinaciones en rango 7 - 11:")
+(imprimir-primeros combos-prueba 10)
+(displayln (string-append "Total: " (number->string (stream-longitud combos-prueba))))

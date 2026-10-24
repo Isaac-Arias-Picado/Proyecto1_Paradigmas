@@ -156,15 +156,15 @@
     "semestre": 1,
     "creditos": 2,
     "horas": 6,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -176,7 +176,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -188,7 +188,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -200,7 +200,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -212,7 +212,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -231,11 +231,11 @@
     "semestre": 1,
     "creditos": 3,
     "horas": 8,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -246,15 +246,15 @@
     "semestre": 1,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -266,7 +266,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -278,7 +278,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -290,7 +290,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -302,7 +302,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -535,15 +535,15 @@
     "semestre": 1,
     "creditos": 3,
     "horas": 9,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -555,7 +555,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -567,7 +567,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -579,7 +579,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -591,7 +591,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -603,7 +603,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -615,7 +615,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -627,7 +627,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -639,7 +639,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -651,7 +651,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -663,7 +663,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -675,7 +675,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -694,15 +694,15 @@
     "semestre": 1,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": ["QU1106"],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -714,7 +714,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -726,7 +726,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -738,7 +738,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -750,7 +750,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -762,7 +762,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -774,7 +774,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -786,7 +786,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -798,7 +798,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -810,7 +810,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -822,7 +822,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -834,7 +834,7 @@
       },
       {
         "numero": 13,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -846,7 +846,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -999,11 +999,11 @@
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -1014,15 +1014,15 @@
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA0101"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1039,7 +1039,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1056,7 +1056,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1073,7 +1073,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1090,7 +1090,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1107,7 +1107,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1124,7 +1124,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1141,7 +1141,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1158,7 +1158,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1175,7 +1175,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1192,7 +1192,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1209,7 +1209,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1226,7 +1226,7 @@
       },
       {
         "numero": 13,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1250,7 +1250,7 @@
     "semestre": 2,
     "creditos": 1,
     "horas": 3,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CI1106"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -1661,15 +1661,15 @@
     "semestre": 2,
     "creditos": 2,
     "horas": 6,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CI0200", "CI0202"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1681,7 +1681,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1693,7 +1693,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1705,7 +1705,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1717,7 +1717,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1729,7 +1729,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1741,7 +1741,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1753,7 +1753,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1765,7 +1765,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1777,7 +1777,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1789,7 +1789,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2112,15 +2112,15 @@
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": ["FI1101"],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2132,7 +2132,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2144,7 +2144,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2156,7 +2156,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2168,7 +2168,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2180,7 +2180,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2192,7 +2192,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2204,7 +2204,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2216,7 +2216,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2228,7 +2228,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2240,7 +2240,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2252,7 +2252,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2264,7 +2264,7 @@
       },
       {
         "numero": 14,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2276,7 +2276,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2288,7 +2288,7 @@
       },
       {
         "numero": 16,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2300,7 +2300,7 @@
       },
       {
         "numero": 17,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2312,7 +2312,7 @@
       },
       {
         "numero": 18,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2324,7 +2324,7 @@
       },
       {
         "numero": 19,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2336,7 +2336,7 @@
       },
       {
         "numero": 22,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2348,7 +2348,7 @@
       },
       {
         "numero": 23,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2360,7 +2360,7 @@
       },
       {
         "numero": 24,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2372,7 +2372,7 @@
       },
       {
         "numero": 25,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2384,7 +2384,7 @@
       },
       {
         "numero": 26,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2396,7 +2396,7 @@
       },
       {
         "numero": 27,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2408,7 +2408,7 @@
       },
       {
         "numero": 29,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2427,15 +2427,15 @@
     "semestre": 2,
     "creditos": 4,
     "horas": 5,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA0101"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2452,7 +2452,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2469,7 +2469,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2486,7 +2486,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2503,7 +2503,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2520,7 +2520,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2537,7 +2537,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2554,7 +2554,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2571,7 +2571,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2588,7 +2588,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2605,7 +2605,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2622,7 +2622,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2639,7 +2639,7 @@
       },
       {
         "numero": 13,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2656,7 +2656,7 @@
       },
       {
         "numero": 14,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2673,7 +2673,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2690,7 +2690,7 @@
       },
       {
         "numero": 16,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2707,7 +2707,7 @@
       },
       {
         "numero": 17,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2724,7 +2724,7 @@
       },
       {
         "numero": 18,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2741,7 +2741,7 @@
       },
       {
         "numero": 19,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2758,7 +2758,7 @@
       },
       {
         "numero": 20,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2787,7 +2787,7 @@
       },
       {
         "numero": 22,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2811,7 +2811,7 @@
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["QU1102", "QU1106"],
     "correquisitos": ["QU1107"],
     "tiene_choque": false,
@@ -3126,7 +3126,7 @@
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["QU1102", "QU1106"],
     "correquisitos": ["QU1104"],
     "tiene_choque": false,
@@ -3345,7 +3345,7 @@
     "semestre": 3,
     "creditos": 2,
     "horas": 3,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CI1230"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3492,7 +3492,7 @@
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA1102", "QU1107"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3519,7 +3519,7 @@
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1101", "FI1201"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3721,7 +3721,7 @@
     "semestre": 3,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1101", "FI1201"],
     "correquisitos": ["FI1102"],
     "tiene_choque": false,
@@ -3844,7 +3844,7 @@
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA1102"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -4172,7 +4172,7 @@
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["QU1104", "QU1107"],
     "correquisitos": ["QU2404"],
     "tiene_choque": false,
@@ -4221,7 +4221,7 @@
     "semestre": 3,
     "creditos": 2,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["QU1104", "QU1107"],
     "correquisitos": ["QU2403"],
     "tiene_choque": false,
@@ -4272,11 +4272,11 @@
     "semestre": 3,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -4287,7 +4287,7 @@
     "semestre": 4,
     "creditos": 3,
     "horas": 9,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CM2103"],
     "correquisitos": ["CM3103"],
     "tiene_choque": false,
@@ -4314,7 +4314,7 @@
     "semestre": 4,
     "creditos": 1,
     "horas": 3,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CM1103"],
     "correquisitos": ["CM2401"],
     "tiene_choque": false,
@@ -4377,7 +4377,7 @@
     "semestre": 4,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CM2103"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -4407,12 +4407,12 @@
     "aprobado": false,
     "requisitos": ["MA1103"],
     "correquisitos": [],
-    "tiene_choque": false,
-    "puede_matricular": false,
+    "tiene_choque": true,
+    "puede_matricular": true,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4429,7 +4429,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4446,7 +4446,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4463,7 +4463,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4492,7 +4492,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4509,7 +4509,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4526,7 +4526,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4555,7 +4555,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 2,
         "horarios": [
           {
@@ -4579,7 +4579,7 @@
     "semestre": 4,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1101", "FI1201"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -4690,7 +4690,7 @@
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MI2101"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -4765,12 +4765,758 @@
     "semestre": 4,
     "creditos": 0,
     "horas": 2,
+    "aprobado": true,
+    "requisitos": [],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+    ]
+  },
+  {
+    "codigo": "CM3207",
+    "nombre": "Métodos numéricos para ingeniería",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CA2125", "MA2105"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3501",
+    "nombre": "Materiales poliméricos",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["QU2403", "QU2404"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CS2303",
+    "nombre": "Relaciones laborales",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 2,
+    "horas": 6,
+    "aprobado": false,
+    "requisitos": ["CS1502"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "17:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "FH1000",
+    "nombre": "Centros de formación humanística",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 0,
+    "horas": 2,
     "aprobado": false,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
     "puede_matricular": true,
     "grupos": [
+    ]
+  },
+  {
+    "codigo": "MI3115",
+    "nombre": "Resistencia de materiales",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MI2106"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MI4510",
+    "nombre": "Electrotecnia",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["FI1102", "FI1202"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "PI2609",
+    "nombre": "Probabilidad y estadística",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["MA1103"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "SO2601",
+    "nombre": "Fundamentos de seguridad e higiene ocupacional",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 5,
+    "creditos": 1,
+    "horas": 2,
+    "aprobado": false,
+    "requisitos": [],
+    "correquisitos": ["CS2303"],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3208",
+    "nombre": "Metrología para ingeniería",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MI3124", "PI2609"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3601",
+    "nombre": "Mecánica de fluidos",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM3103", "CM3207"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3602",
+    "nombre": "Tecnología de aleaciones metálicas",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM2401", "CM3103"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3603",
+    "nombre": "Mecánica de materiales avanzada",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM2401", "MI3115"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4202",
+    "nombre": "Laboratorio tecnología aleaciones metálicas",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CM2401", "CM3103"],
+    "correquisitos": ["CM3602"],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4305",
+    "nombre": "Tecnología de polímeros",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CM3501"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CS3404",
+    "nombre": "Seminario de ética para la ingeniería",
+    "carrera": "Ingenieria en Materiales",
+    "semestre": 6,
+    "creditos": 2,
+    "horas": 5,
+    "aprobado": false,
+    "requisitos": ["CS1502"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 5,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 8,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 9,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      },
+      {
+        "numero": 11,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
     ]
   }
 ]
