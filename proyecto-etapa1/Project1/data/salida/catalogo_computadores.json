@@ -1122,11 +1122,11 @@
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -1137,11 +1137,11 @@
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -1347,15 +1347,15 @@
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1367,7 +1367,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1379,7 +1379,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1391,7 +1391,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1403,7 +1403,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1422,15 +1422,15 @@
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA1102"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1447,7 +1447,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1464,7 +1464,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1481,7 +1481,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1498,7 +1498,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1515,7 +1515,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1532,7 +1532,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1549,7 +1549,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1566,7 +1566,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1583,7 +1583,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1600,7 +1600,7 @@
       },
       {
         "numero": 13,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1617,7 +1617,7 @@
       },
       {
         "numero": 14,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1634,7 +1634,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1651,7 +1651,7 @@
       },
       {
         "numero": 17,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1668,7 +1668,7 @@
       },
       {
         "numero": 18,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1685,7 +1685,7 @@
       },
       {
         "numero": 19,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1702,7 +1702,7 @@
       },
       {
         "numero": 20,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -1726,15 +1726,15 @@
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": ["FI1101"],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1746,7 +1746,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1758,7 +1758,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1770,7 +1770,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1782,7 +1782,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1794,7 +1794,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1806,7 +1806,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1818,7 +1818,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1830,7 +1830,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1842,7 +1842,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1854,7 +1854,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1866,7 +1866,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1878,7 +1878,7 @@
       },
       {
         "numero": 14,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1890,7 +1890,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1902,7 +1902,7 @@
       },
       {
         "numero": 16,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1914,7 +1914,7 @@
       },
       {
         "numero": 17,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1926,7 +1926,7 @@
       },
       {
         "numero": 18,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1938,7 +1938,7 @@
       },
       {
         "numero": 19,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1950,7 +1950,7 @@
       },
       {
         "numero": 22,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1962,7 +1962,7 @@
       },
       {
         "numero": 23,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1974,7 +1974,7 @@
       },
       {
         "numero": 24,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1986,7 +1986,7 @@
       },
       {
         "numero": 25,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -1998,7 +1998,7 @@
       },
       {
         "numero": 26,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2010,7 +2010,7 @@
       },
       {
         "numero": 27,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2022,7 +2022,7 @@
       },
       {
         "numero": 29,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2041,15 +2041,15 @@
     "semestre": 2,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA1102"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2066,7 +2066,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2083,7 +2083,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2100,7 +2100,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2117,7 +2117,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2134,7 +2134,7 @@
       },
       {
         "numero": 6,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2151,7 +2151,7 @@
       },
       {
         "numero": 7,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2168,7 +2168,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2185,7 +2185,7 @@
       },
       {
         "numero": 9,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2202,7 +2202,7 @@
       },
       {
         "numero": 10,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2219,7 +2219,7 @@
       },
       {
         "numero": 11,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2236,7 +2236,7 @@
       },
       {
         "numero": 12,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2253,7 +2253,7 @@
       },
       {
         "numero": 13,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2270,7 +2270,7 @@
       },
       {
         "numero": 14,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2287,7 +2287,7 @@
       },
       {
         "numero": 15,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2304,7 +2304,7 @@
       },
       {
         "numero": 16,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2321,7 +2321,7 @@
       },
       {
         "numero": 17,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2350,7 +2350,7 @@
       },
       {
         "numero": 19,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2369,11 +2369,11 @@
     "semestre": 2,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -2384,15 +2384,15 @@
     "semestre": 3,
     "creditos": 4,
     "horas": 12,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CE1103", "CE1105"],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 2,
         "horarios": [
           {
@@ -2416,15 +2416,15 @@
     "semestre": 3,
     "creditos": 2,
     "horas": 6,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
-    "tiene_choque": true,
-    "puede_matricular": true,
+    "tiene_choque": false,
+    "puede_matricular": false,
     "grupos": [
       {
         "numero": 1,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2436,7 +2436,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2448,7 +2448,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2460,7 +2460,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2472,7 +2472,7 @@
       },
       {
         "numero": 5,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2508,7 +2508,7 @@
       },
       {
         "numero": 8,
-        "tiene_choque": true,
+        "tiene_choque": false,
         "num_bloques": 1,
         "horarios": [
           {
@@ -2527,7 +2527,7 @@
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1101", "MA1102"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -2605,11 +2605,11 @@
     "semestre": 3,
     "creditos": 0,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": [],
     "correquisitos": [],
     "tiene_choque": false,
-    "puede_matricular": true,
+    "puede_matricular": false,
     "grupos": [
     ]
   },
@@ -2620,7 +2620,7 @@
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1101"],
     "correquisitos": ["MA1102"],
     "tiene_choque": false,
@@ -2822,7 +2822,7 @@
     "semestre": 3,
     "creditos": 1,
     "horas": 2,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1201"],
     "correquisitos": ["FI1102"],
     "tiene_choque": false,
@@ -2945,7 +2945,7 @@
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA1103"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3074,7 +3074,7 @@
     "semestre": 4,
     "creditos": 3,
     "horas": 9,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["CE2103"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3123,7 +3123,7 @@
     "semestre": 4,
     "creditos": 1,
     "horas": 3,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["FI1202"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3162,7 +3162,7 @@
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["EL2113"],
     "correquisitos": ["EL2207"],
     "tiene_choque": false,
@@ -3245,7 +3245,7 @@
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["EL2113"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3328,7 +3328,7 @@
     "semestre": 4,
     "creditos": 2,
     "horas": 3,
-    "aprobado": false,
+    "aprobado": true,
     "requisitos": ["MA2104"],
     "correquisitos": [],
     "tiene_choque": false,
@@ -3382,8 +3382,8 @@
     "aprobado": false,
     "requisitos": ["FI1102"],
     "correquisitos": [],
-    "tiene_choque": false,
-    "puede_matricular": false,
+    "tiene_choque": true,
+    "puede_matricular": true,
     "grupos": [
       {
         "numero": 1,
@@ -3399,7 +3399,7 @@
       },
       {
         "numero": 2,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 1,
         "horarios": [
           {
@@ -3411,7 +3411,7 @@
       },
       {
         "numero": 3,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 1,
         "horarios": [
           {
@@ -3423,7 +3423,7 @@
       },
       {
         "numero": 4,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 1,
         "horarios": [
           {
@@ -3435,13 +3435,454 @@
       },
       {
         "numero": 5,
-        "tiene_choque": false,
+        "tiene_choque": true,
         "num_bloques": 1,
         "horarios": [
           {
             "dia": "VIE",
             "hora_inicio": "07:30",
             "hora_fin": "10:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1107",
+    "nombre": "Fundamentos de arquitectura de computadores",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 5,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["EL2207"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE3101",
+    "nombre": "Bases de datos",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 5,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE1106"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "19:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE3201",
+    "nombre": "Taller de diseño digital",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 5,
+    "creditos": 2,
+    "horas": 6,
+    "aprobado": false,
+    "requisitos": ["CE2201"],
+    "correquisitos": ["CE1107"],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "SAB",
+            "hora_inicio": "08:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "MA2105",
+    "nombre": "Ecuaciones diferenciales",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 5,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["MA1103"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      },
+      {
+        "numero": 3,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      },
+      {
+        "numero": 4,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 6,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      },
+      {
+        "numero": 7,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      },
+      {
+        "numero": 10,
+        "tiene_choque": true,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "PI5516",
+    "nombre": "Ingeniería económica",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 5,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["PI2609"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "17:00",
+            "hora_fin": "20:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1108",
+    "nombre": "Compiladores e intérpretes",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 6,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE1107"],
+    "correquisitos": ["CE4301"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1109",
+    "nombre": "Circuitos analógicos",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 6,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["EL2207", "SO4604"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1110",
+    "nombre": "Análisis de señales mixtas",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 6,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["EL2114", "MA2105"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE4301",
+    "nombre": "Arquitectura de computadores I",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 6,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE1107", "CE3201"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CI3203",
+    "nombre": "Inglés especializado para ingenierías en computadores",
+    "carrera": "Ingenieria en Computadores",
+    "semestre": 6,
+    "creditos": 2,
+    "horas": 6,
+    "aprobado": false,
+    "requisitos": ["CI0205"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
           }
         ]
       }

@@ -1,0 +1,14 @@
+{
+  "creditos_min": 12,
+  "creditos_max": 18,
+  "interes": [
+    { "codigo": "MA2105", "grupos": [1, 3] },
+    { "codigo": "CM3207", "grupos": [1, 2] },
+    { "codigo": "CM3501", "grupos": [1] },
+    { "codigo": "MI3115", "grupos": [1, 3] },
+    { "codigo": "MI4510", "grupos": [1] },
+    { "codigo": "CM3602", "grupos": [1] },
+    { "codigo": "CM4202", "grupos": [3] },
+    { "codigo": "CS2303", "grupos": [2, 5] }
+  ]
+}

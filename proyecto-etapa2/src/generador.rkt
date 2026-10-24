@@ -13,7 +13,10 @@
          filtrar-catalogo-por-preferencias
          generar-combinaciones
          generar-combinaciones-estrictas
-         generar-desde-datos)
+         generar-desde-datos
+         creditos-en-rango?
+         stream-filtrar
+         filtrar-por-creditos)
 
 
 (struct (A) Stream-Cons ([primero : A] [resto : (Promise (Streamof A))]))
@@ -212,3 +215,18 @@
 (define (generar-desde-datos catalogo pref)
   (define cursos-interes (filtrar-catalogo-por-preferencias catalogo pref))
   (generar-combinaciones cursos-interes))
+
+(: creditos-en-rango? : Combo Pref -> Boolean)
+(define (creditos-en-rango? c p)
+  (if (and (>= (Combo-creditos-totales c) (Pref-creditos-min p)) (<= (Combo-creditos-totales c) (Pref-creditos-max p)))
+      #t
+      #f))
+(: stream-filtrar : (All (A) (-> (-> A Boolean) (Streamof A) (Streamof A))))
+(define (stream-filtrar criterio s)
+  (cond
+    [(stream-vacio? s) stream-vacio]
+    [(criterio (stream-primero s)) (crear-stream (stream-primero s) (stream-filtrar criterio (stream-resto s)))]
+    [else (stream-filtrar criterio (stream-resto s))]))
+(: filtrar-por-creditos : (Streamof Combo) Pref -> (Streamof Combo))
+(define (filtrar-por-creditos combos pref)
+ (stream-filtrar (lambda ([c : Combo]) (creditos-en-rango? c pref)) combos))
