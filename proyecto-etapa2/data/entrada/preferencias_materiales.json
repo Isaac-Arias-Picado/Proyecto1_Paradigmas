@@ -9,6 +9,10 @@
     { "codigo": "MI4510", "grupos": [1] },
     { "codigo": "CM3602", "grupos": [1] },
     { "codigo": "CM4202", "grupos": [3] },
-    { "codigo": "CS2303", "grupos": [2, 5] }
+    { "codigo": "CS2303", "grupos": [2, 5] },
+    { "codigo": "PI2609", "grupos": [1, 2] },
+    { "codigo": "CS3404", "grupos": [1, 2] },
+    { "codigo": "AE5121", "grupos": [1] },
+    { "codigo": "CM4803", "grupos": [1] }
   ]
 }

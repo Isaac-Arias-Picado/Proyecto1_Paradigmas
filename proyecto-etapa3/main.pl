@@ -1,5 +1,5 @@
 %% Punto de entrada del módulo Prolog (etapa 3)
-%% Carga JSON, evalúa cada combinación, exporta salida JSON.
+%% Carga JSON, evalúa cada combinación, exporta evaluaciones JSON.
 
 :- use_module(library(http/json)).
 :- use_module(library(lists)).
@@ -7,14 +7,12 @@
 :- consult('reglas.pl').
 :- consult('politica.pl').
 
-%% combinacion/2 ya declarada dinámica en reglas.pl
-
 %% Carga de combinaciones desde JSON
 
 cargar_combinaciones(Archivo) :-
     setup_call_cleanup(
         open(Archivo, read, Stream),
-        json_read_dict(Stream, Dict),
+        json_read_dict(Stream, Dict, [value_string_as(atom)]),
         close(Stream)
     ),
     get_dict(combinaciones, Dict, ListaCombos),
@@ -34,7 +32,6 @@ curso_dict_a_termino(Dict, curso(Codigo, Grupo, Creditos, Carrera, Area)) :-
     Area     = Dict.area.
 
 %% Pares curso-grupo (para la salida)
-
 
 pares_curso_grupo(Combo, Pares) :-
     findall([Cod, G], member(curso(Cod, G, _, _, _), Combo), Pares).
@@ -71,15 +68,20 @@ exportar(ArchivoSalida) :-
         close(Stream)
     ).
 
+%% Procesamiento por carrera
+
+procesar_carrera(Nombre, RutaEntrada, RutaSalida) :-
+    retractall(combinacion(_, _)),
+    cargar_combinaciones(RutaEntrada),
+    exportar(RutaSalida),
+    format('~w: exportado en ~w~n', [Nombre, RutaSalida]).
+
 %% Entry point
 
 main :-
-    retractall(combinacion(_, _)),
-    cargar_combinaciones('datos/combinaciones_computadores.json'),
-    cargar_combinaciones('datos/combinaciones_materiales.json'),
-    exportar('salida.json'),
-    writeln('Salida escrita en salida.json').
-
-%% Uso:
-%%   cd prolog
-%%   swipl -g main -t halt main.pl
+    procesar_carrera('Computadores',
+                     'datos/entradas/combinaciones_computadores.json',
+                     'datos/salidas/evaluaciones_computadores.json'),
+    procesar_carrera('Materiales',
+                     'datos/entradas/combinaciones_materiales.json',
+                     'datos/salidas/evaluaciones_materiales.json').

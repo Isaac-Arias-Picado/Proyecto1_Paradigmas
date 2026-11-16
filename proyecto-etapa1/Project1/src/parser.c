@@ -48,6 +48,15 @@ int parsear_plan_estudios(const char* ruta, const char* carrera,
             }
             continue;
         }
+        if (strncmp(linea, "Area", 4) == 0) {
+            if (c != NULL) {
+                char* p = strstr(linea, ": ");
+                if (p != NULL) {
+                    strcpy(c->area, p + 2);
+                }
+            }
+            continue;
+        }
 
         if (strncmp(linea, "Corequisitos:", 13) == 0) {
             if (c != NULL) {

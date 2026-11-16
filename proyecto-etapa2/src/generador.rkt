@@ -100,6 +100,7 @@
             (cons (Curso (Curso-codigo curso-encontrado)
                          (Curso-creditos curso-encontrado)
                          (Curso-carrera curso-encontrado)
+                         (Curso-area curso-encontrado) 
                          grupos-validos)
                   (filtrar-catalogo-aux (rest interes) catalogo)))])]))
 
@@ -120,7 +121,7 @@
      (Listof Grupo)
      (Listof Curso)
      (Listof Grupo)
-     (Listof (List String Integer String))
+     (Listof (List String Integer Integer String String))
      Integer
      Boolean
      -> (Streamof Combo))
@@ -144,7 +145,9 @@
            (cons grupo-actual grupos-elegidos)
            (cons (list (Curso-codigo curso)
                        (Grupo-numero grupo-actual)
-                       (Curso-carrera curso))
+                       (Curso-creditos curso)        
+                       (Curso-carrera curso)
+                       (Curso-area curso))            
                  seleccion-actual)
            (+ creditos-actuales (Curso-creditos curso))
            permitir-subconjuntos?)
@@ -166,7 +169,7 @@
 (: explorar-cursos
    : (Listof Curso)
      (Listof Grupo)
-     (Listof (List String Integer String))
+     (Listof (List String Integer Integer String String))
      Integer
      Boolean
      -> (Streamof Combo))

@@ -7,6 +7,10 @@
     { "codigo": "CE3201", "grupos": [1] },
     { "codigo": "MA2105", "grupos": [1, 3] },
     { "codigo": "PI5516", "grupos": [1, 2] },
-    { "codigo": "SO4604", "grupos": [1, 2] }
+    { "codigo": "SO4604", "grupos": [1, 2] },
+    { "codigo": "CI3203", "grupos": [1] },
+    { "codigo": "AE4208", "grupos": [1] },
+    { "codigo": "CS3404", "grupos": [1, 2] },
+    { "codigo": "CE5301", "grupos": [1] }
   ]
 }

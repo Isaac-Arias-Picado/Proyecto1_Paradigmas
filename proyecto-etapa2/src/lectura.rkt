@@ -57,6 +57,7 @@
   (Curso (js->string (hash-ref h 'codigo))
          (js->integer (hash-ref h 'creditos))
          (js->string (hash-ref h 'carrera))
+         (js->string (hash-ref h 'area))
          (map json->grupo (js->list (hash-ref h 'grupos)))))
 
 (: leer-catalogo : String -> (Listof Curso))

@@ -14,7 +14,8 @@ void exportar_a_json(Curso cursos[], int num_cursos, const char* ruta_salida) {
         fprintf(archivo, "  {\n");
         fprintf(archivo, "    \"codigo\": \"%s\",\n", cursos[i].codigo);
         fprintf(archivo, "    \"nombre\": \"%s\",\n", cursos[i].nombre);
-        fprintf(archivo, "    \"carrera\": \"%s\",\n", cursos[i].carrera);       
+        fprintf(archivo, "    \"carrera\": \"%s\",\n", cursos[i].carrera);
+        fprintf(archivo, "    \"area\": \"%s\",\n", cursos[i].area);       
         fprintf(archivo, "    \"semestre\": %d,\n", cursos[i].semestre);    
         fprintf(archivo, "    \"creditos\": %d,\n", cursos[i].creditos);
         fprintf(archivo, "    \"horas\": %d,\n", cursos[i].horas);       

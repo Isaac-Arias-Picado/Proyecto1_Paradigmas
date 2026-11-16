@@ -3,6 +3,7 @@ Semestre0:
 Examen diagnóstico
 0 Créditos / 0 Horas
 Código de curso : CI0200
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -14,6 +15,7 @@ Requisitos: No posee requisitos
 Inglés básico
 2 Créditos / 3 Horas
 Código de curso : CI0202
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -27,6 +29,7 @@ Semestre1:
 Comunicación escrita
 2 Créditos / 6 Horas
 Código de curso : CI1106
+Area : humanidades
 Nombres Equivalentes :
 1. Comunicación técnica (CI1403)
 Nota :
@@ -38,6 +41,7 @@ Requisitos: No posee requisitos
 Introducción a la ciencia e ingeniería de los materiales
 3 Créditos / 8 Horas
 Código de curso : CM1103
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -49,6 +53,7 @@ Requisitos: No posee requisitos
 Introducción a la técnica ciencia y tecnología
 1 Créditos / 2 Horas
 Código de curso : CS1502
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -60,6 +65,7 @@ Requisitos: No posee requisitos
 Matemática general
 2 Créditos / 5 Horas
 Código de curso : MA0101
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -71,6 +77,7 @@ Requisitos: No posee requisitos
 Dibujo técnico
 3 Créditos / 9 Horas
 Código de curso : MI2101
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -82,6 +89,7 @@ Requisitos: No posee requisitos
 Laboratorio de química básica i
 1 Créditos / 2 Horas
 Código de curso : QU1102
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -93,6 +101,7 @@ Requisitos: No posee requisitos
 Química básica i
 3 Créditos / 4 Horas
 Código de curso : QU1106
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -104,6 +113,7 @@ Requisitos: No posee requisitos
 Actividad cultural i
 0 Créditos / 2 Horas
 Código de curso : SE1100
+Area : humanidades
 Nombres Equivalentes :
 1. Acción social (SE1102)
 Nota :
@@ -117,6 +127,7 @@ Semestre2:
 Elementos de computación
 3 Créditos / 4 Horas
 Código de curso : CA2125
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -128,6 +139,7 @@ Requisitos: MA0101
 Comunicación oral
 1 Créditos / 3 Horas
 Código de curso : CI1107
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -139,6 +151,7 @@ Requisitos: CI1106
 Inglés i
 2 Créditos / 6 Horas
 Código de curso : CI1230
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -150,6 +163,7 @@ Requisitos: CI0200,CI0202
 Física general i
 3 Créditos / 4 Horas
 Código de curso : FI1101
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -161,6 +175,7 @@ Requisitos: No posee requisitos
 Laboratorio física general i
 1 Créditos / 2 Horas
 Código de curso : FI1201
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -172,6 +187,7 @@ Requisitos: No posee requisitos
 Cálculo diferencial e integral
 4 Créditos / 5 Horas
 Código de curso : MA1102
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -183,6 +199,7 @@ Requisitos: MA0101
 Laboratorio de química básica ii
 1 Créditos / 2 Horas
 Código de curso : QU1104
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -194,6 +211,7 @@ Requisitos: QU1102,QU1106
 Química básica ii
 3 Créditos / 4 Horas
 Código de curso : QU1107
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -207,6 +225,7 @@ Semestre3:
 Inglés ii
 2 Créditos / 3 Horas
 Código de curso : CI1231
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -218,6 +237,7 @@ Requisitos: CI1230
 Termodinámica
 3 Créditos / 4 Horas
 Código de curso : CM2103
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -229,6 +249,7 @@ Requisitos: MA1102,QU1107
 Física general ii
 3 Créditos / 4 Horas
 Código de curso : FI1102
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -240,6 +261,7 @@ Requisitos: FI1101,FI1201
 Laboratorio física general ii
 1 Créditos / 2 Horas
 Código de curso : FI1202
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -251,6 +273,7 @@ Requisitos: FI1101,FI1201
 Cálculo y álgebra lineal
 4 Créditos / 4 Horas
 Código de curso : MA1103
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -262,6 +285,7 @@ Requisitos: MA1102
 Química orgánica
 3 Créditos / 4 Horas
 Código de curso : QU2403
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -273,6 +297,7 @@ Requisitos: QU1104,QU1107
 Laboratorio de química orgánica
 2 Créditos / 4 Horas
 Código de curso : QU2404
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -284,6 +309,7 @@ Requisitos: QU1104,QU1107
 Actividad deportiva i
 0 Créditos / 2 Horas
 Código de curso : SE1200
+Area : humanidades
 Nombres Equivalentes :
 1. Acondicionamiento físico (SE1206)
 Nota :
@@ -297,6 +323,7 @@ Semestre4:
 Metalurgia física
 3 Créditos / 9 Horas
 Código de curso : CM2401
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -308,6 +335,7 @@ Requisitos: CM2103
 Laboratorio de metalurgia física
 1 Créditos / 3 Horas
 Código de curso : CM2402
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -319,6 +347,7 @@ Requisitos: CM1103
 Termodinámica de materiales
 3 Créditos / 4 Horas
 Código de curso : CM3103
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -330,6 +359,7 @@ Requisitos: CM2103
 Ecuaciones diferenciales
 4 Créditos / 4 Horas
 Código de curso : MA2105
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -341,6 +371,7 @@ Requisitos: MA1103
 Estática
 3 Créditos / 4 Horas
 Código de curso : MI2106
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -352,6 +383,7 @@ Requisitos: FI1101,FI1201
 Dibujo industrial
 4 Créditos / 4 Horas
 Código de curso : MI3124
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -363,6 +395,7 @@ Requisitos: MI2101
 Actividad cultural-deportiva
 0 Créditos / 2 Horas
 Código de curso : SE1400
+Area : humanidades
 Nombres Equivalentes :
 1. Dinámica de la cultura (SE1109)
 Nota :
@@ -376,6 +409,7 @@ Semestre5:
 Métodos numéricos para ingeniería
 3 Créditos / 4 Horas
 Código de curso : CM3207
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -387,6 +421,7 @@ Requisitos: CA2125,MA2105
 Materiales poliméricos
 3 Créditos / 9 Horas
 Código de curso : CM3501
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -398,6 +433,7 @@ Requisitos: QU2403,QU2404
 Relaciones laborales
 2 Créditos / 6 Horas
 Código de curso : CS2303
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -409,6 +445,7 @@ Requisitos: CS1502
 Centros de formación humanística
 0 Créditos / 2 Horas
 Código de curso : FH1000
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -420,6 +457,7 @@ Requisitos: No posee requisitos
 Resistencia de materiales
 3 Créditos / 4 Horas
 Código de curso : MI3115
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -431,6 +469,7 @@ Requisitos: MI2106
 Electrotecnia
 3 Créditos / 4 Horas
 Código de curso : MI4510
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -442,6 +481,7 @@ Requisitos: FI1102,FI1202
 Probabilidad y estadística
 2 Créditos / 3 Horas
 Código de curso : PI2609
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -453,6 +493,7 @@ Requisitos: MA1103
 Fundamentos de seguridad e higiene ocupacional
 1 Créditos / 2 Horas
 Código de curso : SO2601
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -466,6 +507,7 @@ Semestre6:
 Metrología para ingeniería
 3 Créditos / 4 Horas
 Código de curso : CM3208
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -477,6 +519,7 @@ Requisitos: MI3124,PI2609
 Mecánica de fluidos
 3 Créditos / 9 Horas
 Código de curso : CM3601
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -488,6 +531,7 @@ Requisitos: CM3103,CM3207
 Tecnología de aleaciones metálicas
 3 Créditos / 9 Horas
 Código de curso : CM3602
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -499,6 +543,7 @@ Requisitos: CM2401,CM3103
 Mecánica de materiales avanzada
 3 Créditos / 9 Horas
 Código de curso : CM3603
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -510,6 +555,7 @@ Requisitos: CM2401,MI3115
 Laboratorio tecnología aleaciones metálicas
 2 Créditos / 3 Horas
 Código de curso : CM4202
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -521,6 +567,7 @@ Requisitos: CM2401,CM3103
 Tecnología de polímeros
 2 Créditos / 3 Horas
 Código de curso : CM4305
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -532,6 +579,7 @@ Requisitos: CM3501
 Seminario de ética para la ingeniería
 2 Créditos / 5 Horas
 Código de curso : CS3404
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -539,3 +587,127 @@ Periodo	Año	Nota
 1. -
 Corequisitos: No posee corequisitos
 Requisitos: CS1502
+
+Semestre7:
+
+Ingeniería económica
+3 Créditos / 3 Horas
+Código de curso : AE5121
+Area : ciencias_sociales
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: PI2609
+
+Tecnología de maquinado
+3 Créditos / 4 Horas
+Código de curso : CM3205
+Area : fisica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CM4307
+Requisitos: CM3208,CM3602
+
+Conformado de materiales
+4 Créditos / 4 Horas
+Código de curso : CM4307
+Area : fisica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CM3205
+Requisitos: CM3603
+
+Transferencia de calor y masa
+3 Créditos / 9 Horas
+Código de curso : CM4701
+Area : fisica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM3207,CM3601
+
+Materiales cerámicos y compuestos
+3 Créditos / 9 Horas
+Código de curso : CM4702
+Area : quimica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM2401,CM4305
+
+Seminario de estudios costarricenses
+2 Créditos / 3 Horas
+Código de curso : CS4402
+Area : ciencias_sociales
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CS3404
+
+Semestre8:
+
+Modelación y simulación
+4 Créditos / 4 Horas
+Código de curso : CM4101
+Area : programacion
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM3603,CM4701
+
+Caracterización de materiales
+4 Créditos / 4 Horas
+Código de curso : CM4801
+Area : quimica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CM4305,CM4702
+
+Gestión de proyectos
+3 Créditos / 9 Horas
+Código de curso : CM4802
+Area : ciencias_sociales
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: AE5121
+
+Taller de diseño en ciencia e ingeniería de los materiales
+7 Créditos / 21 Horas
+Código de curso : CM4803
+Area : fisica
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CM4101,CM4802
+Requisitos: CM3205

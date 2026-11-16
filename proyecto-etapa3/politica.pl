@@ -1,8 +1,8 @@
 
 %% Regla 1: balance entre carreras
 %% Porcentaje máximo de créditos que una carrera puede aportar al total. (hay que ajustarlo)
-max_porcentaje_carrera(ingenieria_computadores, 100).
-max_porcentaje_carrera(ingenieria_materiales, 100).
+max_porcentaje_carrera('Ingenieria en Computadores', 100).
+max_porcentaje_carrera('Ingenieria en Materiales', 100).
 
 %% Regla 2: límite por área (Hay que ajustarlo)
 %% Máximo de cursos permitidos por área en una combinación.

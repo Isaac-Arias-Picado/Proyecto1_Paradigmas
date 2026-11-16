@@ -3,6 +3,7 @@
     "codigo": "CI0200",
     "nombre": "Examen diagnóstico",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 0,
     "creditos": 0,
     "horas": 0,
@@ -18,6 +19,7 @@
     "codigo": "CI0202",
     "nombre": "Inglés básico",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 0,
     "creditos": 2,
     "horas": 3,
@@ -153,6 +155,7 @@
     "codigo": "CI1106",
     "nombre": "Comunicación escrita",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 1,
     "creditos": 2,
     "horas": 6,
@@ -228,6 +231,7 @@
     "codigo": "CM1103",
     "nombre": "Introducción a la ciencia e ingeniería de los materiales",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 1,
     "creditos": 3,
     "horas": 8,
@@ -243,6 +247,7 @@
     "codigo": "CS1502",
     "nombre": "Introducción a la técnica ciencia y tecnología",
     "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
     "semestre": 1,
     "creditos": 1,
     "horas": 2,
@@ -318,6 +323,7 @@
     "codigo": "MA0101",
     "nombre": "Matemática general",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 1,
     "creditos": 2,
     "horas": 5,
@@ -532,6 +538,7 @@
     "codigo": "MI2101",
     "nombre": "Dibujo técnico",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 1,
     "creditos": 3,
     "horas": 9,
@@ -691,6 +698,7 @@
     "codigo": "QU1102",
     "nombre": "Laboratorio de química básica i",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 1,
     "creditos": 1,
     "horas": 2,
@@ -862,6 +870,7 @@
     "codigo": "QU1106",
     "nombre": "Química básica i",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 1,
     "creditos": 3,
     "horas": 4,
@@ -996,6 +1005,7 @@
     "codigo": "SE1100",
     "nombre": "Actividad cultural i",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
@@ -1011,6 +1021,7 @@
     "codigo": "CA2125",
     "nombre": "Elementos de computación",
     "carrera": "Ingenieria en Materiales",
+    "area": "programacion",
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
@@ -1247,6 +1258,7 @@
     "codigo": "CI1107",
     "nombre": "Comunicación oral",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 2,
     "creditos": 1,
     "horas": 3,
@@ -1658,6 +1670,7 @@
     "codigo": "CI1230",
     "nombre": "Inglés i",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 2,
     "creditos": 2,
     "horas": 6,
@@ -1805,6 +1818,7 @@
     "codigo": "FI1101",
     "nombre": "Física general i",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
@@ -2109,6 +2123,7 @@
     "codigo": "FI1201",
     "nombre": "Laboratorio física general i",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
@@ -2424,6 +2439,7 @@
     "codigo": "MA1102",
     "nombre": "Cálculo diferencial e integral",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 2,
     "creditos": 4,
     "horas": 5,
@@ -2808,6 +2824,7 @@
     "codigo": "QU1104",
     "nombre": "Laboratorio de química básica ii",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
@@ -3123,6 +3140,7 @@
     "codigo": "QU1107",
     "nombre": "Química básica ii",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
@@ -3342,6 +3360,7 @@
     "codigo": "CI1231",
     "nombre": "Inglés ii",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 3,
     "creditos": 2,
     "horas": 3,
@@ -3489,6 +3508,7 @@
     "codigo": "CM2103",
     "nombre": "Termodinámica",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
@@ -3516,6 +3536,7 @@
     "codigo": "FI1102",
     "nombre": "Física general ii",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
@@ -3718,6 +3739,7 @@
     "codigo": "FI1202",
     "nombre": "Laboratorio física general ii",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 3,
     "creditos": 1,
     "horas": 2,
@@ -3841,6 +3863,7 @@
     "codigo": "MA1103",
     "nombre": "Cálculo y álgebra lineal",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
@@ -4169,6 +4192,7 @@
     "codigo": "QU2403",
     "nombre": "Química orgánica",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
@@ -4218,6 +4242,7 @@
     "codigo": "QU2404",
     "nombre": "Laboratorio de química orgánica",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 3,
     "creditos": 2,
     "horas": 4,
@@ -4269,6 +4294,7 @@
     "codigo": "SE1200",
     "nombre": "Actividad deportiva i",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 3,
     "creditos": 0,
     "horas": 2,
@@ -4284,6 +4310,7 @@
     "codigo": "CM2401",
     "nombre": "Metalurgia física",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 4,
     "creditos": 3,
     "horas": 9,
@@ -4311,6 +4338,7 @@
     "codigo": "CM2402",
     "nombre": "Laboratorio de metalurgia física",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 4,
     "creditos": 1,
     "horas": 3,
@@ -4374,6 +4402,7 @@
     "codigo": "CM3103",
     "nombre": "Termodinámica de materiales",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 4,
     "creditos": 3,
     "horas": 4,
@@ -4401,6 +4430,7 @@
     "codigo": "MA2105",
     "nombre": "Ecuaciones diferenciales",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
@@ -4576,6 +4606,7 @@
     "codigo": "MI2106",
     "nombre": "Estática",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 4,
     "creditos": 3,
     "horas": 4,
@@ -4687,6 +4718,7 @@
     "codigo": "MI3124",
     "nombre": "Dibujo industrial",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
@@ -4762,6 +4794,7 @@
     "codigo": "SE1400",
     "nombre": "Actividad cultural-deportiva",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 4,
     "creditos": 0,
     "horas": 2,
@@ -4777,6 +4810,7 @@
     "codigo": "CM3207",
     "nombre": "Métodos numéricos para ingeniería",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 5,
     "creditos": 3,
     "horas": 4,
@@ -4888,6 +4922,7 @@
     "codigo": "CM3501",
     "nombre": "Materiales poliméricos",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 5,
     "creditos": 3,
     "horas": 9,
@@ -4920,6 +4955,7 @@
     "codigo": "CS2303",
     "nombre": "Relaciones laborales",
     "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
     "semestre": 5,
     "creditos": 2,
     "horas": 6,
@@ -5019,6 +5055,7 @@
     "codigo": "FH1000",
     "nombre": "Centros de formación humanística",
     "carrera": "Ingenieria en Materiales",
+    "area": "humanidades",
     "semestre": 5,
     "creditos": 0,
     "horas": 2,
@@ -5034,6 +5071,7 @@
     "codigo": "MI3115",
     "nombre": "Resistencia de materiales",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 5,
     "creditos": 3,
     "horas": 4,
@@ -5097,6 +5135,7 @@
     "codigo": "MI4510",
     "nombre": "Electrotecnia",
     "carrera": "Ingenieria en Materiales",
+    "area": "hardware",
     "semestre": 5,
     "creditos": 3,
     "horas": 4,
@@ -5124,6 +5163,7 @@
     "codigo": "PI2609",
     "nombre": "Probabilidad y estadística",
     "carrera": "Ingenieria en Materiales",
+    "area": "matematicas",
     "semestre": 5,
     "creditos": 2,
     "horas": 3,
@@ -5175,6 +5215,7 @@
     "codigo": "SO2601",
     "nombre": "Fundamentos de seguridad e higiene ocupacional",
     "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
     "semestre": 5,
     "creditos": 1,
     "horas": 2,
@@ -5202,6 +5243,7 @@
     "codigo": "CM3208",
     "nombre": "Metrología para ingeniería",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 6,
     "creditos": 3,
     "horas": 4,
@@ -5241,6 +5283,7 @@
     "codigo": "CM3601",
     "nombre": "Mecánica de fluidos",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 6,
     "creditos": 3,
     "horas": 9,
@@ -5268,6 +5311,7 @@
     "codigo": "CM3602",
     "nombre": "Tecnología de aleaciones metálicas",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 6,
     "creditos": 3,
     "horas": 9,
@@ -5295,6 +5339,7 @@
     "codigo": "CM3603",
     "nombre": "Mecánica de materiales avanzada",
     "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
     "semestre": 6,
     "creditos": 3,
     "horas": 9,
@@ -5322,6 +5367,7 @@
     "codigo": "CM4202",
     "nombre": "Laboratorio tecnología aleaciones metálicas",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 6,
     "creditos": 2,
     "horas": 3,
@@ -5349,6 +5395,7 @@
     "codigo": "CM4305",
     "nombre": "Tecnología de polímeros",
     "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
     "semestre": 6,
     "creditos": 2,
     "horas": 3,
@@ -5376,6 +5423,7 @@
     "codigo": "CS3404",
     "nombre": "Seminario de ética para la ingeniería",
     "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
     "semestre": 6,
     "creditos": 2,
     "horas": 5,
@@ -5514,6 +5562,291 @@
             "dia": "VIE",
             "hora_inicio": "09:30",
             "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "AE5121",
+    "nombre": "Ingeniería económica",
+    "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["PI2609"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "19:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM3205",
+    "nombre": "Tecnología de maquinado",
+    "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CM3208", "CM3602"],
+    "correquisitos": ["CM4307"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4307",
+    "nombre": "Conformado de materiales",
+    "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
+    "semestre": 7,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CM3603"],
+    "correquisitos": ["CM3205"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4701",
+    "nombre": "Transferencia de calor y masa",
+    "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM3207", "CM3601"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4702",
+    "nombre": "Materiales cerámicos y compuestos",
+    "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CM2401", "CM4305"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "11:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CS4402",
+    "nombre": "Seminario de estudios costarricenses",
+    "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
+    "semestre": 7,
+    "creditos": 2,
+    "horas": 3,
+    "aprobado": false,
+    "requisitos": ["CS3404"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "VIE",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4101",
+    "nombre": "Modelación y simulación",
+    "carrera": "Ingenieria en Materiales",
+    "area": "programacion",
+    "semestre": 8,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CM3603", "CM4701"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4801",
+    "nombre": "Caracterización de materiales",
+    "carrera": "Ingenieria en Materiales",
+    "area": "quimica",
+    "semestre": 8,
+    "creditos": 4,
+    "horas": 4,
+    "aprobado": false,
+    "requisitos": ["CM4305", "CM4702"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4802",
+    "nombre": "Gestión de proyectos",
+    "carrera": "Ingenieria en Materiales",
+    "area": "ciencias_sociales",
+    "semestre": 8,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["AE5121"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CM4803",
+    "nombre": "Taller de diseño en ciencia e ingeniería de los materiales",
+    "carrera": "Ingenieria en Materiales",
+    "area": "fisica",
+    "semestre": 8,
+    "creditos": 7,
+    "horas": 21,
+    "aprobado": false,
+    "requisitos": ["CM3205"],
+    "correquisitos": ["CM4101", "CM4802"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "16:50"
           }
         ]
       }

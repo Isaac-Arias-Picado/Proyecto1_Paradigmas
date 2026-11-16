@@ -3,6 +3,7 @@
     "codigo": "CI0205",
     "nombre": "Prueba avanzada inglés",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 0,
     "creditos": 0,
     "horas": 0,
@@ -18,6 +19,7 @@
     "codigo": "MA0101",
     "nombre": "Matemática general",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 0,
     "creditos": 2,
     "horas": 5,
@@ -232,6 +234,7 @@
     "codigo": "CE1101",
     "nombre": "Introducción a la programación",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 1,
     "creditos": 3,
     "horas": 9,
@@ -281,6 +284,7 @@
     "codigo": "CE1104",
     "nombre": "Fundamentos de sistemas computacionales",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 1,
     "creditos": 3,
     "horas": 9,
@@ -313,6 +317,7 @@
     "codigo": "MA1102",
     "nombre": "Cálculo diferencial e integral",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 1,
     "creditos": 4,
     "horas": 5,
@@ -697,6 +702,7 @@
     "codigo": "MA1403",
     "nombre": "Matemática discreta",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 1,
     "creditos": 4,
     "horas": 4,
@@ -814,6 +820,7 @@
     "codigo": "QU1102",
     "nombre": "Laboratorio de química básica i",
     "carrera": "Ingenieria en Computadores",
+    "area": "quimica",
     "semestre": 1,
     "creditos": 1,
     "horas": 2,
@@ -985,6 +992,7 @@
     "codigo": "QU1106",
     "nombre": "Química básica i",
     "carrera": "Ingenieria en Computadores",
+    "area": "quimica",
     "semestre": 1,
     "creditos": 3,
     "horas": 4,
@@ -1119,6 +1127,7 @@
     "codigo": "SE1100",
     "nombre": "Actividad cultural i",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
@@ -1134,6 +1143,7 @@
     "codigo": "SE1200",
     "nombre": "Actividad deportiva i",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 1,
     "creditos": 0,
     "horas": 2,
@@ -1149,6 +1159,7 @@
     "codigo": "CE1103",
     "nombre": "Algoritmos y estructuras de datos i",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 2,
     "creditos": 4,
     "horas": 12,
@@ -1215,6 +1226,7 @@
     "codigo": "CE1105",
     "nombre": "Principios de modelado en ingeniería",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 2,
     "creditos": 3,
     "horas": 9,
@@ -1281,6 +1293,7 @@
     "codigo": "CI1407",
     "nombre": "Habilidades de comunicación en ingeniería",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 2,
     "creditos": 2,
     "horas": 6,
@@ -1344,6 +1357,7 @@
     "codigo": "CS1502",
     "nombre": "Introducción a la técnica ciencia y tecnología",
     "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
@@ -1419,6 +1433,7 @@
     "codigo": "FI1101",
     "nombre": "Física general i",
     "carrera": "Ingenieria en Computadores",
+    "area": "fisica",
     "semestre": 2,
     "creditos": 3,
     "horas": 4,
@@ -1723,6 +1738,7 @@
     "codigo": "FI1201",
     "nombre": "Laboratorio física general i",
     "carrera": "Ingenieria en Computadores",
+    "area": "fisica",
     "semestre": 2,
     "creditos": 1,
     "horas": 2,
@@ -2038,6 +2054,7 @@
     "codigo": "MA1103",
     "nombre": "Cálculo y álgebra lineal",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 2,
     "creditos": 4,
     "horas": 4,
@@ -2366,6 +2383,7 @@
     "codigo": "SE1400",
     "nombre": "Actividad cultural-deportiva",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 2,
     "creditos": 0,
     "horas": 2,
@@ -2381,6 +2399,7 @@
     "codigo": "CE2103",
     "nombre": "Algoritmos y estructuras de datos ii",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 3,
     "creditos": 4,
     "horas": 12,
@@ -2413,6 +2432,7 @@
     "codigo": "CS2101",
     "nombre": "Ambiente humano",
     "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
     "semestre": 3,
     "creditos": 2,
     "horas": 6,
@@ -2524,6 +2544,7 @@
     "codigo": "EL2113",
     "nombre": "Circuitos eléctricos en corriente continua",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
@@ -2602,6 +2623,7 @@
     "codigo": "FH1000",
     "nombre": "Centros de formación humanística",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 3,
     "creditos": 0,
     "horas": 2,
@@ -2617,6 +2639,7 @@
     "codigo": "FI1102",
     "nombre": "Física general ii",
     "carrera": "Ingenieria en Computadores",
+    "area": "fisica",
     "semestre": 3,
     "creditos": 3,
     "horas": 4,
@@ -2819,6 +2842,7 @@
     "codigo": "FI1202",
     "nombre": "Laboratorio física general ii",
     "carrera": "Ingenieria en Computadores",
+    "area": "fisica",
     "semestre": 3,
     "creditos": 1,
     "horas": 2,
@@ -2942,6 +2966,7 @@
     "codigo": "MA2104",
     "nombre": "Cálculo superior",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 3,
     "creditos": 4,
     "horas": 4,
@@ -3071,6 +3096,7 @@
     "codigo": "CE1106",
     "nombre": "Paradigmas de programación",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 4,
     "creditos": 3,
     "horas": 9,
@@ -3120,6 +3146,7 @@
     "codigo": "CE2201",
     "nombre": "Laboratorio de circuitos eléctricos",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 4,
     "creditos": 1,
     "horas": 3,
@@ -3159,6 +3186,7 @@
     "codigo": "EL2114",
     "nombre": "Circuitos eléctricos en corriente alterna",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
@@ -3242,6 +3270,7 @@
     "codigo": "EL2207",
     "nombre": "Elementos activos",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 4,
     "creditos": 4,
     "horas": 4,
@@ -3325,6 +3354,7 @@
     "codigo": "PI2609",
     "nombre": "Probabilidad y estadística",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 4,
     "creditos": 2,
     "horas": 3,
@@ -3376,6 +3406,7 @@
     "codigo": "SO4604",
     "nombre": "Seguridad y salud ocupacional",
     "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
     "semestre": 4,
     "creditos": 3,
     "horas": 3,
@@ -3451,6 +3482,7 @@
     "codigo": "CE1107",
     "nombre": "Fundamentos de arquitectura de computadores",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 5,
     "creditos": 4,
     "horas": 12,
@@ -3483,6 +3515,7 @@
     "codigo": "CE3101",
     "nombre": "Bases de datos",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 5,
     "creditos": 4,
     "horas": 12,
@@ -3532,6 +3565,7 @@
     "codigo": "CE3201",
     "nombre": "Taller de diseño digital",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 5,
     "creditos": 2,
     "horas": 6,
@@ -3564,6 +3598,7 @@
     "codigo": "MA2105",
     "nombre": "Ecuaciones diferenciales",
     "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
     "semestre": 5,
     "creditos": 4,
     "horas": 4,
@@ -3698,6 +3733,7 @@
     "codigo": "PI5516",
     "nombre": "Ingeniería económica",
     "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
     "semestre": 5,
     "creditos": 3,
     "horas": 4,
@@ -3737,6 +3773,7 @@
     "codigo": "CE1108",
     "nombre": "Compiladores e intérpretes",
     "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
     "semestre": 6,
     "creditos": 4,
     "horas": 12,
@@ -3769,6 +3806,7 @@
     "codigo": "CE1109",
     "nombre": "Circuitos analógicos",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 6,
     "creditos": 4,
     "horas": 12,
@@ -3801,6 +3839,7 @@
     "codigo": "CE1110",
     "nombre": "Análisis de señales mixtas",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 6,
     "creditos": 4,
     "horas": 12,
@@ -3833,6 +3872,7 @@
     "codigo": "CE4301",
     "nombre": "Arquitectura de computadores I",
     "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
     "semestre": 6,
     "creditos": 4,
     "horas": 12,
@@ -3865,6 +3905,7 @@
     "codigo": "CI3203",
     "nombre": "Inglés especializado para ingenierías en computadores",
     "carrera": "Ingenieria en Computadores",
+    "area": "humanidades",
     "semestre": 6,
     "creditos": 2,
     "horas": 6,
@@ -3883,6 +3924,333 @@
             "dia": "MAR",
             "hora_inicio": "13:00",
             "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1111",
+    "nombre": "Análisis numérico para la ingeniería",
+    "carrera": "Ingenieria en Computadores",
+    "area": "matematicas",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["MA2105"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1112",
+    "nombre": "Taller de señales mixtas",
+    "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
+    "semestre": 7,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CE1109", "CE1110"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "07:30",
+            "hora_fin": "09:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1116",
+    "nombre": "Diseño y calidad en productos tecnológicos",
+    "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
+    "semestre": 7,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE3101", "CE4301", "PI5516"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE4302",
+    "nombre": "Arquitectura de computadores II",
+    "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
+    "semestre": 7,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE4301"],
+    "correquisitos": ["CE4303"],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "13:00",
+            "hora_fin": "14:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE4303",
+    "nombre": "Principios de sistemas operativos",
+    "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
+    "semestre": 7,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE1108"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "AE4208",
+    "nombre": "Desarrollo de emprendedores",
+    "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
+    "semestre": 8,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CS2101"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "13:00",
+            "hora_fin": "15:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE1113",
+    "nombre": "Sistemas empotrados",
+    "carrera": "Ingenieria en Computadores",
+    "area": "hardware",
+    "semestre": 8,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CE4303"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          },
+          {
+            "dia": "VIE",
+            "hora_inicio": "15:00",
+            "hora_fin": "16:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE5301",
+    "nombre": "Redes de computadores",
+    "carrera": "Ingenieria en Computadores",
+    "area": "redes",
+    "semestre": 8,
+    "creditos": 4,
+    "horas": 12,
+    "aprobado": false,
+    "requisitos": ["CE1116", "CE4303"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 2,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          },
+          {
+            "dia": "JUE",
+            "hora_inicio": "17:00",
+            "hora_fin": "18:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CE5701",
+    "nombre": "Electiva I",
+    "carrera": "Ingenieria en Computadores",
+    "area": "programacion",
+    "semestre": 8,
+    "creditos": 3,
+    "horas": 9,
+    "aprobado": false,
+    "requisitos": ["CE4302", "CI3203"],
+    "correquisitos": [],
+    "tiene_choque": false,
+    "puede_matricular": false,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "07:30",
+            "hora_fin": "10:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "CS3404",
+    "nombre": "Seminario de ética para la ingeniería",
+    "carrera": "Ingenieria en Computadores",
+    "area": "ciencias_sociales",
+    "semestre": 8,
+    "creditos": 2,
+    "horas": 5,
+    "aprobado": false,
+    "requisitos": ["CS2101"],
+    "correquisitos": [],
+    "tiene_choque": true,
+    "puede_matricular": true,
+    "grupos": [
+      {
+        "numero": 1,
+        "tiene_choque": true,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "MAR",
+            "hora_inicio": "09:30",
+            "hora_fin": "12:20"
+          }
+        ]
+      },
+      {
+        "numero": 2,
+        "tiene_choque": false,
+        "num_bloques": 1,
+        "horarios": [
+          {
+            "dia": "LUN",
+            "hora_inicio": "18:00",
+            "hora_fin": "20:50"
           }
         ]
       }
