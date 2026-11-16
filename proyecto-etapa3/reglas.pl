@@ -1,3 +1,4 @@
+:- encoding(utf8).
 
 %% Lógica del módulo Prolog (etapa 3)
 %% Auxiliares + regla 1, 2, 3 + razón de rechazo.
@@ -53,8 +54,12 @@ cumple_balance(Combo) :-
 
 %% Regla 2: límite por área
 
+%% Area se liga primero con areas_presentes/2, así el predicado sirve en dos
+%% modos: con Area dada verifica esa área; con Area libre enumera las que exceden.
 excede_area(Combo, Area) :-
-    max_cursos_por_area(Area, Max),
+    max_cursos_area(Max),
+    areas_presentes(Combo, Areas),
+    member(Area, Areas),
     cursos_de_area(Combo, Area, Codigos),
     length(Codigos, N),
     N > Max.
@@ -95,4 +100,4 @@ evaluar(Combo, incumple, limite_area(A)) :-
 
 evaluar(Combo, incumple, incompatibilidad(A, B)) :-
     par_incompatible_en(Combo, A, B),
-    !.
+    !.
