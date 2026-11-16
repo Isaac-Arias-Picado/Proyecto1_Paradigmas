@@ -5,7 +5,9 @@
          RUTA-PREFS-COMPUTADORES
          RUTA-PREFS-MATERIALES
          RUTA-SALIDA-COMPUTADORES
-         RUTA-SALIDA-MATERIALES)
+         RUTA-SALIDA-MATERIALES
+         RUTA-PREFS-MIXTAS
+         RUTA-SALIDA-MIXTAS)
 
 ;; --- Salidas de la etapa 1 ---
 (define RUTA-CATALOGO-COMPUTADORES
@@ -21,9 +23,16 @@
 (define RUTA-PREFS-MATERIALES
   "../data/entrada/preferencias_materiales.json")
 
+;; Preferencias de un estudiante de Computadores que lleva cursos de Materiales
+(define RUTA-PREFS-MIXTAS
+  "../data/entrada/preferencias_mixtas.json")
+
 ;; --- Salidas de la etapa 2 ---
 (define RUTA-SALIDA-COMPUTADORES
   "../data/salida/combinaciones_computadores.json")
 
 (define RUTA-SALIDA-MATERIALES
   "../data/salida/combinaciones_materiales.json")
+
+(define RUTA-SALIDA-MIXTAS
+  "../data/salida/combinaciones_mixtas.json")
