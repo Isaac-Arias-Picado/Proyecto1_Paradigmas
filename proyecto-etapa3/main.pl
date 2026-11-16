@@ -1,3 +1,4 @@
+:- encoding(utf8).
 %% Punto de entrada del módulo Prolog (etapa 3)
 %% Carga JSON, evalúa cada combinación, exporta evaluaciones JSON.
 
@@ -48,15 +49,19 @@ evaluar_todas(Resultados) :-
 
 dict_resultado(Id, Pares, Veredicto, Razon, ResultDict) :-
     ( Veredicto == cumple -> Cumple = true ; Cumple = false ),
-    ( Razon == ninguna -> RazonStr = null
-    ; term_to_atom(Razon, RazonStr)
-    ),
+    razon_a_json(Razon, RazonJson),
     ResultDict = _{
         id: Id,
         pares_curso_grupo: Pares,
         cumple: Cumple,
-        razon: RazonStr
+        razon: RazonJson
     }.
+
+%% La razón se exporta como objeto {regla, detalle} para que Java no tenga
+%% que parsear texto. =.. separa el functor (la regla) de sus argumentos.
+razon_a_json(ninguna, null) :- !.
+razon_a_json(Razon, _{regla: Regla, detalle: Detalle}) :-
+    Razon =.. [Regla | Detalle].
 
 %% Exportación
 
@@ -84,4 +89,10 @@ main :-
                      'datos/salidas/evaluaciones_computadores.json'),
     procesar_carrera('Materiales',
                      'datos/entradas/combinaciones_materiales.json',
-                     'datos/salidas/evaluaciones_materiales.json').
+                     'datos/salidas/evaluaciones_materiales.json'),
+    procesar_carrera('Mixto',
+                     'datos/entradas/combinaciones_mixtas.json',
+                     'datos/salidas/evaluaciones_mixtas.json').
+
+%% Uso (desde la carpeta proyecto-etapa3):
+%%   swipl -g main -t halt main.pl
