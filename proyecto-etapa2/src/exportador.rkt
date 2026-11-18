@@ -6,9 +6,13 @@
 
 (provide exportar-combinaciones)
 
-(: curso->json : (List String Integer String) -> JSExpr)
+(: curso->json : (List String Integer Integer String String) -> JSExpr)
 (define (curso->json curso)
-  (hash 'codigo (first curso) 'grupo (second curso) 'carrera (third curso)))
+  (hash 'codigo   (first curso)
+        'grupo    (second curso)
+        'creditos (third curso)
+        'carrera  (fourth curso)
+        'area     (fifth curso)))
 (: combo->json : Combo Integer -> JSExpr)
 (define (combo->json combo id)
   (hash 'id id 'creditos_totales (Combo-creditos-totales combo) 'cursos (map curso->json (Combo-seleccion combo))))

@@ -10,7 +10,8 @@
 #define MAX_NOMBRE 150
 #define MAX_REQUISITOS 8
 #define MAX_CORREQUISITOS 8
-#define MAX_CURSOS 50
+#define MAX_CURSOS 100
+#define MAX_AREA 40
 #define MAX_LINEA 500
 #define MAX_BLOQUES_HORARIO 1000
 #define MAX_HORA 6

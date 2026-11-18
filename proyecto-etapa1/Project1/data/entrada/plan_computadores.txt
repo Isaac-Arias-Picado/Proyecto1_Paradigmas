@@ -3,6 +3,7 @@ Semestre0:
 Prueba avanzada inglés
 0 Créditos / 0 Horas
 Código de curso : CI0205
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -14,6 +15,7 @@ Requisitos: No posee requisitos
 Matemática general
 2 Créditos / 5 Horas
 Código de curso : MA0101
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -27,6 +29,7 @@ Semestre1:
 Introducción a la programación
 3 Créditos / 9 Horas
 Código de curso : CE1101
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -38,6 +41,7 @@ Requisitos: No posee requisitos
 Fundamentos de sistemas computacionales
 3 Créditos / 9 Horas
 Código de curso : CE1104
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -49,6 +53,7 @@ Requisitos: No posee requisitos
 Cálculo diferencial e integral
 4 Créditos / 5 Horas
 Código de curso : MA1102
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -60,6 +65,7 @@ Requisitos: MA0101
 Matemática discreta
 4 Créditos / 4 Horas
 Código de curso : MA1403
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -71,6 +77,7 @@ Requisitos: No posee requisitos
 Laboratorio de química básica i
 1 Créditos / 2 Horas
 Código de curso : QU1102
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -82,6 +89,7 @@ Requisitos: No posee requisitos
 Química básica i
 3 Créditos / 4 Horas
 Código de curso : QU1106
+Area : quimica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -93,6 +101,7 @@ Requisitos: No posee requisitos
 Actividad cultural i
 0 Créditos / 2 Horas
 Código de curso : SE1100
+Area : humanidades
 Nombres Equivalentes :
 Nota :
 Periodo	Año	Nota
@@ -103,6 +112,7 @@ Requisitos: No posee requisitos
 Actividad deportiva i
 0 Créditos / 2 Horas
 Código de curso : SE1200
+Area : humanidades
 Nombres Equivalentes :
 Nota :
 Periodo	Año	Nota
@@ -116,6 +126,7 @@ Semestre2:
 Algoritmos y estructuras de datos i
 4 Créditos / 12 Horas
 Código de curso : CE1103
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -127,6 +138,7 @@ Requisitos: CE1101,CE1104,MA1403
 Principios de modelado en ingeniería
 3 Créditos / 9 Horas
 Código de curso : CE1105
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -138,6 +150,7 @@ Requisitos: CE1104
 Habilidades de comunicación en ingeniería
 2 Créditos / 6 Horas
 Código de curso : CI1407
+Area : humanidades
 Nombres Equivalentes :
 1. Comunicación técnica (CI1403)
 Nota :
@@ -149,6 +162,7 @@ Requisitos: No posee requisitos
 Introducción a la técnica ciencia y tecnología
 1 Créditos / 2 Horas
 Código de curso : CS1502
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -160,6 +174,7 @@ Requisitos: No posee requisitos
 Física general i
 3 Créditos / 4 Horas
 Código de curso : FI1101
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -171,6 +186,7 @@ Requisitos: MA1102
 Laboratorio física general i
 1 Créditos / 2 Horas
 Código de curso : FI1201
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -182,6 +198,7 @@ Requisitos: No posee requisitos
 Cálculo y álgebra lineal
 4 Créditos / 4 Horas
 Código de curso : MA1103
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -193,6 +210,7 @@ Requisitos: MA1102
 Actividad cultural-deportiva
 0 Créditos / 2 Horas
 Código de curso : SE1400
+Area : humanidades
 Nombres Equivalentes :
 
 Nota :
@@ -207,6 +225,7 @@ Semestre3:
 Algoritmos y estructuras de datos ii
 4 Créditos / 12 Horas
 Código de curso : CE2103
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -218,6 +237,7 @@ Requisitos: CE1103,CE1105
 Ambiente humano
 2 Créditos / 6 Horas
 Código de curso : CS2101
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -229,6 +249,7 @@ Requisitos: No posee requisitos
 Circuitos eléctricos en corriente continua
 4 Créditos / 4 Horas
 Código de curso : EL2113
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -240,6 +261,7 @@ Requisitos: FI1101,MA1102
 Centros de formación humanística
 0 Créditos / 2 Horas
 Código de curso : FH1000
+Area : humanidades
 Nombres Equivalentes :
 
 Nota :
@@ -251,6 +273,7 @@ Requisitos: No posee requisitos
 Física general ii
 3 Créditos / 4 Horas
 Código de curso : FI1102
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -262,6 +285,7 @@ Requisitos: FI1101
 Laboratorio física general ii
 1 Créditos / 2 Horas
 Código de curso : FI1202
+Area : fisica
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -273,6 +297,7 @@ Requisitos: FI1201
 Cálculo superior
 4 Créditos / 4 Horas
 Código de curso : MA2104
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -286,6 +311,7 @@ Semestre4:
 Paradigmas de programación
 3 Créditos / 9 Horas
 Código de curso : CE1106
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -297,6 +323,7 @@ Requisitos: CE2103
 Laboratorio de circuitos eléctricos
 1 Créditos / 3 Horas
 Código de curso : CE2201
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -308,6 +335,7 @@ Requisitos: FI1202
 Circuitos eléctricos en corriente alterna
 4 Créditos / 4 Horas
 Código de curso : EL2114
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -319,6 +347,7 @@ Requisitos: EL2113
 Elementos activos
 4 Créditos / 4 Horas
 Código de curso : EL2207
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -330,6 +359,7 @@ Requisitos: EL2113
 Probabilidad y estadística
 2 Créditos / 3 Horas
 Código de curso : PI2609
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -341,6 +371,7 @@ Requisitos: MA2104
 Seguridad y salud ocupacional
 3 Créditos / 3 Horas
 Código de curso : SO4604
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -354,6 +385,7 @@ Semestre5:
 Fundamentos de arquitectura de computadores
 4 Créditos / 12 Horas
 Código de curso : CE1107
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -365,6 +397,7 @@ Requisitos: EL2207
 Bases de datos
 4 Créditos / 12 Horas
 Código de curso : CE3101
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -376,6 +409,7 @@ Requisitos: CE1106
 Taller de diseño digital
 2 Créditos / 6 Horas
 Código de curso : CE3201
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -387,6 +421,7 @@ Requisitos: CE2201
 Ecuaciones diferenciales
 4 Créditos / 4 Horas
 Código de curso : MA2105
+Area : matematicas
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -398,6 +433,7 @@ Requisitos: MA1103
 Ingeniería económica
 3 Créditos / 4 Horas
 Código de curso : PI5516
+Area : ciencias_sociales
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -411,6 +447,7 @@ Semestre6:
 Compiladores e intérpretes
 4 Créditos / 12 Horas
 Código de curso : CE1108
+Area : programacion
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -422,6 +459,7 @@ Requisitos: CE1107
 Circuitos analógicos
 4 Créditos / 12 Horas
 Código de curso : CE1109
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -433,6 +471,7 @@ Requisitos: EL2207,SO4604
 Análisis de señales mixtas
 4 Créditos / 12 Horas
 Código de curso : CE1110
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -444,6 +483,7 @@ Requisitos: EL2114,MA2105
 Arquitectura de computadores I
 4 Créditos / 12 Horas
 Código de curso : CE4301
+Area : hardware
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -455,6 +495,7 @@ Requisitos: CE1107,CE3201
 Inglés especializado para ingenierías en computadores
 2 Créditos / 6 Horas
 Código de curso : CI3203
+Area : humanidades
 Nombres Equivalentes :
 Sin nombres equivalentes
 Nota :
@@ -462,3 +503,127 @@ Periodo	Año	Nota
 1. -
 Corequisitos: No posee corequisitos
 Requisitos: CI0205
+
+Semestre7:
+
+Análisis numérico para la ingeniería
+3 Créditos / 9 Horas
+Código de curso : CE1111
+Area : matematicas
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: MA2105
+
+Taller de señales mixtas
+3 Créditos / 9 Horas
+Código de curso : CE1112
+Area : hardware
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE1109,CE1110
+
+Diseño y calidad en productos tecnológicos
+4 Créditos / 12 Horas
+Código de curso : CE1116
+Area : programacion
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE3101,CE4301,PI5516
+
+Arquitectura de computadores II
+4 Créditos / 12 Horas
+Código de curso : CE4302
+Area : hardware
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: CE4303
+Requisitos: CE4301
+
+Principios de sistemas operativos
+4 Créditos / 12 Horas
+Código de curso : CE4303
+Area : programacion
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE1108
+
+Semestre8:
+
+Desarrollo de emprendedores
+4 Créditos / 12 Horas
+Código de curso : AE4208
+Area : ciencias_sociales
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CS2101
+
+Sistemas empotrados
+3 Créditos / 9 Horas
+Código de curso : CE1113
+Area : hardware
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE4303
+
+Redes de computadores
+4 Créditos / 12 Horas
+Código de curso : CE5301
+Area : redes
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE1116,CE4303
+
+Electiva I
+3 Créditos / 9 Horas
+Código de curso : CE5701
+Area : programacion
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CE4302,CI3203
+
+Seminario de ética para la ingeniería
+2 Créditos / 5 Horas
+Código de curso : CS3404
+Area : ciencias_sociales
+Nombres Equivalentes :
+Sin nombres equivalentes
+Nota :
+Periodo	Año	Nota
+1. -
+Corequisitos: No posee corequisitos
+Requisitos: CS2101

@@ -16,11 +16,12 @@
 (struct Curso ([codigo : String]
                [creditos : Integer]
                [carrera : String]
+               [area : String]
                [grupos : (Listof Grupo)]))
 
 (struct Pref ([creditos-min : Integer]
               [creditos-max : Integer]
               [interes : (Listof (List String (Listof Integer)))]))
 
-(struct Combo ([seleccion : (Listof (List String Integer String))]
+(struct Combo ([seleccion : (Listof (List String Integer Integer String String))]
                [creditos-totales : Integer]))

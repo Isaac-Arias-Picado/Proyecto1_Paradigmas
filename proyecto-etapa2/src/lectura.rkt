@@ -6,7 +6,8 @@
   [string->jsexpr (-> String Any)])
 
 (provide leer-catalogo
-         leer-preferencias)
+         leer-preferencias
+         unir-catalogos)
 
 (: js->string : Any -> String)
 (define (js->string v)
@@ -57,6 +58,7 @@
   (Curso (js->string (hash-ref h 'codigo))
          (js->integer (hash-ref h 'creditos))
          (js->string (hash-ref h 'carrera))
+         (js->string (hash-ref h 'area))
          (map json->grupo (js->list (hash-ref h 'grupos)))))
 
 (: leer-catalogo : String -> (Listof Curso))
@@ -83,3 +85,17 @@
   (Pref (js->integer (hash-ref h 'creditos_min))
         (js->integer (hash-ref h 'creditos_max))
         (map json->par-interes (js->list (hash-ref h 'interes)))))
+
+;; Une el catálogo de la carrera principal con el de la carrera secundaria.
+;; Si un curso aparece en ambos planes (ej. MA2105, CS3404), se conserva
+;; solo la versión de la carrera principal, para que cada código aparezca
+;; una sola vez y sus créditos se le cuenten a una sola carrera.
+(: unir-catalogos : (Listof Curso) (Listof Curso) -> (Listof Curso))
+(define (unir-catalogos principal secundario)
+  (: esta-en-principal? : Curso -> Boolean)
+  (define (esta-en-principal? c)
+    (ormap (λ ([p : Curso]) (string=? (Curso-codigo p) (Curso-codigo c)))
+           principal))
+  (append principal
+          (filter (λ ([c : Curso]) (not (esta-en-principal? c)))
+                  secundario)))
